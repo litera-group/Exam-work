@@ -1,0 +1,76 @@
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.container{
+  width: 1440px;
+  height: 912px;
+  background-color: #333333;
+  color: white;
+}
+.main-text{
+  width: 90px;
+  height: 24px;
+  margin: 0 auto;
+  padding-top: 114px;
+}
+.main-text p{
+font-weight: 700;
+font-size: 16px;
+text-align: center;
+line-height: 24px;
+}
+.bottom-main-text{
+  width: 747px;
+  height: 128px;
+  margin: 0 auto;
+  margin-top: 30px;
+  line-height: 24px;
+}
+.bottom-main-text p{
+  font-weight: 700;
+  font-size: 56px;
+  text-align: center;
+  line-height: 64px;
+}
+.main{
+  margin: 60px 135px;
+ display: flex;
+ justify-content: space-around;
+}
+.section{
+  width: 370px;
+  height: 320px;
+  background-color: rgba(205, 214, 219, 0.05);
+}
+.section h2{
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  line-height: 32px;
+  margin-top: 10px;
+}
+.section p{
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  line-height: 24px;
+  margin: 10px 40px;
+}
+.section a{
+  padding-top: 25px;
+  padding-bottom: 7px;
+   display: flex;
+   justify-content: center;
+  }
+.section .learn-more{
+ text-align: center;
+ margin-top: 15px;
+}
+.section .learn-more a{
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
