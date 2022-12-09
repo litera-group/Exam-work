@@ -1,0 +1,155 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*header*/
+
+.header-menu {
+    width: 1371px;
+    margin: 0 auto;
+    margin-top: 23px;
+}
+/*top-menu*/
+.top-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*logo*/
+.logo a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #333333;
+}
+/*nav-menu*/
+.nav-menu {
+    width: 399px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 33px;
+}
+.nav-menu li a{
+    position: relative;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+}
+
+/*animation-bottom*/
+.animation-bottom::before{
+    content: '';
+    border-bottom: 1px solid #333333;
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    transition: all 1s ease;
+}
+.animation-bottom:hover::before{
+    width: 100%;
+    transition: all 1s ease;
+}
+
+/*/header*/
+
+/*section*/
+
+/*container*/
+.container {
+    margin: 0 auto;
+    width: 1170px;
+    display: flex;
+}
+
+/*left-part*/
+
+.left-part {
+    width: 674px;
+    margin-top: 164px;
+}
+.left-part h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 72px;
+    color: #333333;
+}
+/*description*/
+.description p {
+    margin-top: 39px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #333333;
+}
+/*button*/
+.button{
+    margin-top: 199px;
+    display: flex;
+}
+/*bgc*/
+.bgc {
+    padding: 14px 58px 10px;
+    background-color: #FFFFFF;
+    border: 1px solid gainsboro;
+    border-radius: 3px;
+}
+
+/*right-part*/
+.right-part{
+    width: 0px;
+}
+.right-part .oval{
+    position: relative;
+    top: 14px;
+    left: -75px;
+}
+.right-part .oval{
+    position: relative;
+}
+.left-part h1{
+    position: relative;
+    z-index: 2;
+}
+.right-part img.oval::before{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    left:-37px;
+}
+.right-part a{
+    position: relative;
+    left: 140px;
+    top: -330px;
+}
+.right-part h2{
+    width: 86px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FD5545;
+    position: relative;
+    top: -350px;
+    left: 160px;
+}
+/*animation*/
+.bgc:hover{
+    background-color: gainsboro;
+    border: 1px solid gainsboro;
+}
+.animation-white{
+    transition: all 1s ease;
+}
+/*/section*/
