@@ -1,14 +1,14 @@
 body{
     font-family: 'Source Sans Pro', sans-serif;
-    background: #FD5545;
 }
 
 /*section*/
-
-.cover-2{
+.cover-4{
     width: 1440px;
     height: 800px;
     margin: 0 auto;
+    overflow: hidden;
+    background: #0F0E10;
 }
 /*header*/
 
@@ -34,11 +34,10 @@ body{
 }
 /*nav-menu*/
 .nav-menu {
-    width: 399px;
+    width: 280px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: flex-end;
-    gap: 33px;
 }
 .nav-menu li a{
     position: relative;
@@ -49,6 +48,13 @@ body{
     line-height: 24px;
     color: #FFFFFF;
 }
+.search{
+    width: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*animation*/
 
 /*animation-bottom*/
 .animation-bottom::before{
@@ -63,21 +69,21 @@ body{
     width: 100%;
     transition: all 1s ease;
 }
-
 /*/header*/
 
 /*container*/
-.container-top {
+.container {
     margin: 0 auto;
     width: 1170px;
     display: flex;
+    justify-content: space-between;
 }
 
 /*left-part*/
 
 .left-part {
-    width: 674px;
-    margin-top: 164px;
+    width: 497px;
+    margin-top: 217px;
 }
 .left-part h1{
     font-style: normal;
@@ -88,7 +94,6 @@ body{
 }
 /*description*/
 .description p {
-    margin-top: 39px;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -96,36 +101,81 @@ body{
     text-transform: uppercase;
     color: #FFFFFF;
 }
-/*button*/
-.button{
-    margin-top: 199px;
+/*buttons*/
+.buttons {
+    width: 370px;
+    margin-top: 39px;
     display: flex;
+    justify-content: space-between;
+}
+.buttons a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+.white{
+    color: #FFFFFF;
+}
+.red{
+    color: #FD5545;
 }
 /*bgc*/
 .bgc {
-    padding: 14px 58px 10px;
+    padding: 14px 47px 10px;
     background-color: #FD5545;
-    border: 1px solid gainsboro;
+    border: 1px solid #FD5545;
     border-radius: 3px;
+}
+/*br*/
+.br {
+    border: 1px solid grey;
+    padding: 14px 47px 10px;
 }
 
 /*right-part*/
+
+.right-part img{
+    margin-top: 78px;
+}
+
+/*animation*/
+.bgc:hover{
+    background-color: white;
+    border: 1px solid gray;
+    color: #FD5545;
+}
+.animation-white{
+    transition: all 1s ease;
+}
+.br:hover{
+    background-color: #FD5545;
+    border: 1px solid #FD5545;
+    color: #FFFFFF;
+}
+.animation-red{
+    transition: all 1s ease;
+}
+
+/*bgc-img*/
 .right-part{
     width: 0px;
 }
-.right-part .oval{
-    position: relative;
-    top: 14px;
-    left: -75px;
+.header-menu{
+   position: relative;
+   z-index: 2;
 }
-.right-part .oval{
+.right-part .bitmap{
     position: relative;
+    top: -150px;
+    left: -980px;
 }
-.left-part h1{
+.left-part{
     position: relative;
     z-index: 2;
 }
-.right-part img.oval::before{
+.right-part img.bitmap::before{
     content: "";
     display: block;
     width: 100%;
@@ -134,28 +184,6 @@ body{
     z-index: 1;
     left:-37px;
 }
-.right-part a{
-    position: relative;
-    left: 140px;
-    top: -330px;
-}
-.right-part h2{
-    width: 86px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 24px;
-    color: #FD5545;
-    position: relative;
-    top: -350px;
-    left: 160px;
-}
-/*animation*/
-.bgc:hover{
-    background-color: gainsboro;
-    border: 1px solid gainsboro;
-}
-.animation-white{
-    transition: all 1s ease;
-}
+/*/bgc-img*/
+
 /*/section*/
