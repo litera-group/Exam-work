@@ -1,0 +1,123 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #333333;
+}
+
+.form_section_cta5{
+    width: 1440px;
+    margin: 0 auto;
+    align-items: center;
+    
+}
+
+.section_contactdi h1{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 64px; 
+    color:#fff; 
+    margin-top: 71px;
+}
+
+.section_contactdi p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffff;
+    margin-top: 23px;
+}
+
+
+.section_contactdi{
+    margin: 0 auto;
+
+}
+
+.form_search_1 input{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    
+}
+
+.form_search input{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    
+}
+
+.form_search{
+    display: flex;
+    gap: 30px;
+}
+
+.form_search input{
+    width: 560px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    padding-left: 15px;
+    margin-top: -40px;
+}
+
+.form_section_cta5{
+    width: 770px;
+    margin-top: 87px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form_search_1 input{
+    width: 1170px;
+    height: 48px;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    padding-left: 15px;
+}
+
+.form_search_1 .message_form{
+    height: 96px;
+    margin-top: 32px;
+}
+
+.form_search_1 .phnnumber_form{
+    margin-top: 43px;
+}
+
+.send-message{
+    position: absolute;
+    left: 1186px;
+    top: 405px;
+}
+
+.img_link a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FD5545;
+    margin-left: 9px;
+}
+.send-message{
+    width: 170px;
+    height: 48px;
+    background-color: #FD5545;
+    border: none;
+    border-radius: 5%;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+}
+
+.send-message{
+    position: absolute;
+    left: 880px;
+    top: 550px;
+}
+
+.text_cnt_duis{
+    text-align: center;
+}
