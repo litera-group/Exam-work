@@ -7,6 +7,7 @@ body{
     width: 1440px;
     height: 800px;
     margin: 0 auto;
+    overflow: hidden;
 }
 /*header*/
 
@@ -117,7 +118,7 @@ body{
 }
 /*description*/
 .description p {
-    margin-top: 39px;
+    margin-top: 31px;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -126,7 +127,7 @@ body{
 }
 /*buttons*/
 .buttons-badge {
-    width: 370px;
+    width: 320px;
     margin-top: 32px;
     display: flex;
     justify-content: space-between;
@@ -143,7 +144,8 @@ body{
 .right-part-top {
     position: relative;
     z-index: 1;
-    left: 400px;
+    left: 350px;
+    top: 70px;
 }
 
 

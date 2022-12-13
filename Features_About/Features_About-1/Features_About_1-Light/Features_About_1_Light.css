@@ -4,6 +4,7 @@ body{
 .container{
   width: 1440px;
   height: 912px;
+  margin: 0 auto;
 }
 .main-text{
   width: 572px;
@@ -14,18 +15,7 @@ body{
   text-decoration: none;
 }
 /*animation*/
-.main-text-animation::before{
-content: '';
-border-bottom: 3px solid 	#4169E1;
-position: absolute;
-bottom: 0;
-width: 0;
-transition: all 1s ease;
-}
-.main-text-animation:hover::before{
-  width: 100%;
-  transition: all 1s ease-in-out;
-}
+
 /*end of animation*/
 
 .main-text p{
@@ -47,18 +37,14 @@ text-align: center;
 }
 .main{
   margin: 60px 135px;
- display: flex;
- justify-content: space-around;
+  display: flex;
+  justify-content:space-between;
+  gap: 30px;
 }
 .section{
   width: 370px;
   height: 464px;
-}
-.section:hover{
-border: 5px solid #87CEFA;
-}
-.section-animated{
-transition: all 1s ease-in-out;
+  border: 1px solid gray;
 }
 .section h2{
   font-weight: 700;
@@ -75,8 +61,8 @@ transition: all 1s ease-in-out;
   margin: 20px 40px;
 }
 .section .learn-more{
- text-align: center;
- margin-top: 40px;
+    text-align: center;
+    margin-top: 40px;
 }
 .section .learn-more a{
   color: red;
@@ -85,4 +71,17 @@ transition: all 1s ease-in-out;
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
+  position: relative;
+}
+.animation-red::before{
+  content: '';
+  border-bottom: 1px solid #333333;
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  transition: all 1s ease;
+}
+.animation-red:hover::before{
+  width: 100%;
+  transition: all 1s ease;
 }
