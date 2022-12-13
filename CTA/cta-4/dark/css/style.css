@@ -6,7 +6,7 @@ body{
     width: 1440px;
     height: 720px;
     margin: 0 auto;
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(0, 0, 0, 0.5);
     overflow: hidden;
 
 }
@@ -23,14 +23,14 @@ body{
     font-weight: 700;
     font-size: 56px;
     line-height: 64px;
-    color: #333333;
+    color: #ffff;
 }
 
 .creative_beautiful p{
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    color: #333333;
+    color: #ffff;
 }
 
 .bgp_main{
