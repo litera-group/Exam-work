@@ -1,0 +1,126 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*section*/
+.cover-8{
+    width: 1440px;
+    height: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+/*header*/
+
+.header-menu {
+    width: 1370px;
+    margin: 0 auto;
+    margin-top: 23px;
+}
+/*top-menu*/
+.top-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*logo*/
+.logo a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+/*nav-menu*/
+.nav-menu {
+    width: 399px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-menu li a{
+    position: relative;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+/*animation*/
+
+/*animation-bottom*/
+.animation-bottom::before{
+    content: '';
+    border-bottom: 1px solid #FFFFFF;
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    transition: all 1s ease;
+}
+.animation-bottom:hover::before{
+    width: 100%;
+    transition: all 1s ease;
+}
+
+/*/header*/
+
+/*creative*/
+.container-top{
+    width: 977px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 242px;
+}
+.container-top h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FFFFFF;
+}
+.container-top p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-top: 31px;
+}
+/*start-now*/
+.explore{
+    margin-top: 38px;
+}
+.explore a{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+/*animatin now*/
+.animation-now{
+    padding: 14px 49px 10px;
+    background-color: #FD5545;
+    border: 1px solid #FD5545;
+    color: #FFFFFF;
+}
+.animation-now:hover{
+    background-color: #FFFFFF;
+    border: 1px solid gray;
+    color: #FD5545;
+    transition: all 1s ease;
+}
+/*/creative*/
+
+/*bgc-img*/
+
+.bgc-img{
+    position: relative;
+    top: -500px;
+    z-index: -1;
+}
+
+/*/section*/

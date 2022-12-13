@@ -3,6 +3,13 @@ body{
     background: #FD5545;
 }
 
+/*section*/
+
+.cover-2{
+    width: 1440px;
+    height: 800px;
+    margin: 0 auto;
+}
 /*header*/
 
 .header-menu {
@@ -59,10 +66,8 @@ body{
 
 /*/header*/
 
-/*section*/
-
 /*container*/
-.container {
+.container-top {
     margin: 0 auto;
     width: 1170px;
     display: flex;

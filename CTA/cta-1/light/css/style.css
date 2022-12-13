@@ -1,0 +1,60 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+    /*<free_consultation*/
+.free_consultation{
+    width: 570px;
+    margin: 0 auto;
+    margin-top: 121px;
+    text-align: center;
+}
+
+.free_consultation h1{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 64px;
+    color: #333333;
+}
+
+.cta-1{
+    width: 1440px;
+    height: 464px;
+    margin: 0 auto;
+}
+
+.free_consultation p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color:#333333;
+    margin-top: 23px;
+}
+.contact-us-now{
+    margin-top: 36px;
+}
+.contact-us-now a{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+}
+ /*animation-a*/
+.animation-a{
+    position: relative;
+    border: 1px solid #FD5545;
+    padding: 14px 29px 10px;
+    background-color: #FD5545;
+    color: #FFFFFF;
+}
+
+
+.animation-a:hover{
+    transition: all 1s ease;  
+    border: 1px solid gray;
+    background-color: #FFFFFF;
+    color: #FD5545;
+}
+/*/animation-a*/
+
+ /*/free_consultation*/

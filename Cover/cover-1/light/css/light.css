@@ -2,6 +2,12 @@ body{
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+/*section*/
+.cover-1{
+    width: 1440px;
+    height: 800px;
+    margin: 0 auto;
+}
 /*header*/
 
 .header-menu {
@@ -84,8 +90,6 @@ body{
     transition: all 1s ease;
 }
 /*/header*/
-
-/*section*/
 
 /*container*/
 .container {
