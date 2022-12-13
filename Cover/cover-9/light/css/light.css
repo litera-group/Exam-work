@@ -1,0 +1,131 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*section*/
+.cover-9{
+    width: 1440px;
+    height: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+/*header*/
+
+.header-menu {
+    width: 1170px;
+    margin: 0 auto;
+    margin-top: 23px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*top-menu*/
+.top-menu {
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*logo*/
+.logo a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #333333;
+}
+/*nav-menu*/
+.nav-menu {
+    width: 399px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-menu li a{
+    position: relative;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+}
+
+/*animation*/
+
+/*animation-bottom*/
+.animation-bottom::before{
+    content: '';
+    border-bottom: 1px solid #333333;
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    transition: all 1s ease;
+}
+.animation-bottom:hover::before{
+    width: 100%;
+    transition: all 1s ease;
+}
+
+/*/header*/
+
+/*creative*/
+.container-top{
+    width: 964px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 201px;
+}
+.container-top h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 72px;
+    color: #333333;
+    margin-top: 17px;
+}
+.container-top span{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #333333;
+}
+/*start-now*/
+.readmore-top{
+    margin-top: 69px;
+}
+.readmore-top a{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+/*animatin now*/
+.animation-now{
+    padding: 14px 49px 10px;
+    background-color: #FD5545;
+    border: 1px solid #FD5545;
+    color: #FFFFFF;
+}
+.animation-now:hover{
+    background-color: #FFFFFF;
+    border: 1px solid gray;
+    color: #FD5545;
+    transition: all 1s ease;
+}
+/*/creative*/
+
+/*bgc-img*/
+
+.bgc-img{
+    position: relative;
+    top: -550px;
+    z-index: -1;
+}
+
+/*/section*/
