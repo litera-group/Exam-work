@@ -6,6 +6,7 @@ body{
   height: 912px;
   background-color: #333333;
   color: white;
+  margin: 0 auto;
 }
 .main-text{
   width: 90px;
@@ -73,4 +74,19 @@ line-height: 24px;
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
+    position: relative;
 }
+/*animation*/
+.animation-white::before{
+  content: '';
+  border-bottom: 2px solid white;
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  transition: all 1s ease;
+}
+.animation-white:hover::before{
+  width: 25%;
+  transition: all 1s ease-in-out;
+}
+/*end of animation*/

@@ -4,6 +4,7 @@ body{
 .container{
   width: 1440px;
   height: 912px;
+  margin: 0 auto;
   background-color: #333333;
   color: white;
 }
@@ -12,12 +13,15 @@ body{
   height: 128px;
   margin: 0 auto;
   padding-top: 50px;
+  position: relative;
+  text-decoration: none;
 }
 .main-text p{
 font-weight: 700;
 font-size: 56px;
 text-align: center;
 }
+
 .bottom-main-text{
   width: 572px;
   height: 64px;
@@ -33,19 +37,22 @@ text-align: center;
 .main{
   margin: 60px 135px;
  display: flex;
- justify-content: space-around;
+ justify-content:space-between;	
+  gap: 30px;
 }
 .section{
   width: 370px;
   height: 464px;
   background-color: rgba(205, 214, 219, 0.05);
+  border: 1px solid gray;
 }
+
 .section:hover{
-  border: 5px solid #87CEFA;
+  border: 5px solid white;
   }
   .section-animated{
   transition: all 1s ease-in-out;
-  }
+  } 
 .section h2{
   font-weight: 700;
   font-size: 24px;
@@ -59,7 +66,6 @@ text-align: center;
   text-align: center;
   line-height: 24px;
   margin: 20px 40px;
-
 }
 .section .learn-more{
  text-align: center;
@@ -72,4 +78,19 @@ text-align: center;
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
+  position: relative;
 }
+/*animation*/
+.animation-grey::before{
+  content: '';
+  border-bottom: 2px solid grey;
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  transition: all 1s ease;
+}
+.animation-grey:hover::before{
+  width: 100%;
+  transition: all 1s ease-in-out;
+}
+/*end of animation*/
