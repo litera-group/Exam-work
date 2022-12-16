@@ -1,0 +1,62 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #333333;
+}
+    /*<free_consultation*/
+.want_to_work{
+    width: 560px;
+    margin: 0 auto;
+    margin-top: 121px;
+    margin-left: 135px;
+}
+
+.want_to_work h1{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 64px;
+    color: #fff;
+}
+
+.cta-1{
+    width: 1440px;
+    height: 464px;
+    margin: 0 auto;
+}
+
+.want_to_work p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color:#fff;
+    margin-top: 23px;
+}
+.contact-us-now{
+    margin-top: -60px;
+    margin-left: 1100px;
+}
+.contact-us-now a{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+}
+ /*animation-a*/
+.animation-a{
+    position: relative;
+    border: 1px solid #FD5545;
+    padding: 14px 50px 10px;
+    background-color: #FD5545;
+    color: #Ffff;
+}
+
+
+.animation-a:hover{
+    transition: all 1s ease;  
+    border: 1px solid gray;
+    background-color: #fff;
+    color: #FD5545;
+}
+/*/animation-a*/
+
+ /*/free_consultation*/
