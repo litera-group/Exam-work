@@ -12,8 +12,12 @@ color: white;
 padding-right: 235px;
 display: flex;
 justify-content: space-around;
-/*align-content: center; */
+align-items: center; 
 gap: 150px;
+}
+.left-part-with-image{
+  padding-top: 80px;
+  padding-left: 135px;
 }
 .text-area{
   width: 337px;

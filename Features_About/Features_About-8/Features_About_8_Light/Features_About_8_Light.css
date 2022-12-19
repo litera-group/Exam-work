@@ -7,7 +7,7 @@ height: 672px;
 margin: 0 auto;
 }
 .content{
-margin: 80px 235px auto 135px;
+  padding-right: 235px;
 display: flex;
 justify-content: space-around;
 align-items: center;
@@ -15,6 +15,7 @@ gap: 50px;
 }
 .left-part-with-image{
   padding-top: 80px;
+  padding-left: 135px;
 }
 .text-area{
   width: 337px;
