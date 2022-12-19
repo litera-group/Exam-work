@@ -1,0 +1,49 @@
+.container{
+  width: 1440px;
+  height: 464px;
+  margin: 0 auto;
+}
+.content{
+  padding: 78px 135px 115px 135px;
+  background-color: #333333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.section{
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  width: 370px;
+  padding: 15px;
+  text-decoration: none;
+}
+h1{
+  color: #FD5545;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 125px;
+}
+h3{
+  color: white;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+}
+p{
+  margin-top: 20px;
+  color: #FFFFFF;
+  opacity: 0.5;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+/*animation*/
+.animation{
+  transition: all 1s ease;
+}
+.animation:hover{
+  color: white;
+  transition: all 1s ease;
+}
+/*end of animation*/
