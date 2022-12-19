@@ -1,0 +1,61 @@
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.container{
+width: 1440px;
+height: 672px;
+margin: 0 auto;
+background-color: #333333;
+color: white;
+}
+.content{
+padding-right: 235px;
+display: flex;
+justify-content: space-around;
+/*align-content: center; */
+gap: 150px;
+}
+.text-area{
+  width: 337px;
+}
+/*.left-part-with-image img{
+  position: relative;
+  top: 80px;
+  left: 135px;
+}*/
+/*.right-part-without-image{
+  width: 370px;
+}*/
+.text-area h2{
+font-weight: 700;
+font-size: 56px;
+line-height: 64px;
+position: relative;
+}
+.text-area p{
+  margin-top: 15px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;  
+}
+/*animation*/
+.animated-text::before{
+  content: '';
+  width: 0;
+  bottom: 0;
+  position: absolute;
+  border-bottom: 2px solid white;
+  transition: all 1s ease-in-out;
+}
+.animated-text:hover::before{
+  width: 100%;
+  transition: all 1s ease-in-out;
+}
+.animation-color{
+  transition: all 1s ease;
+}
+.animation-color:hover{
+  color:grey;
+  transition: all 1s ease;
+}
+/*end of animation*/

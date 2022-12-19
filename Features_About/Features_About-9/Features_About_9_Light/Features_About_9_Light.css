@@ -1,0 +1,81 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.container{
+  width: 1440px;
+  height: 672px;
+  margin: 0 auto;
+}
+.content{
+  margin: 80px 135px;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+.text-area{
+  width: 470px;
+}
+.text-area h1{
+  margin-top: 105px;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 64px;
+}
+.text-area h2{
+  margin-top: 15px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+.text-area p{
+  margin-top: 15px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.button-about{
+  margin-top: 30px;
+}
+.button-about a{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+}
+.image-1{
+  position: absolute;
+  right: 406px;
+  top: 135px;
+  z-index: 1;
+}
+.image-2{
+  position: absolute;
+  top:208px;
+  right: 135px;
+  z-index: 2;
+}
+/*animation*/
+.animation-a{
+  position: relative;
+  border: 1px solid #FD5545;
+  padding: 12px 65px 10px;
+  background-color: #FD5545;
+  color: #FFFFFF;
+  transition: all 1s ease;
+  border-radius: 3px;
+}
+.animation-a:hover{
+  transition: all 1s ease;
+  border: 1px solid gray;
+  background-color: #FFFFFF;
+  color: #FD5545;
+}
+.animation-h1{
+  transition: all 1s ease-in-out;
+}
+.animation-h1:hover{
+  color:red;
+  transition: all 1s ease-in-out;
+}
+/*end of animation*/
