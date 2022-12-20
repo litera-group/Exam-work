@@ -62,8 +62,4 @@ p{
   transition: all 1s ease;
 }
 /*end of animation*/
-.animation:hover{
-  color: brown;
-  transition: all 1s ease;
-}
-/*end of animation*/
+
