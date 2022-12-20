@@ -1,0 +1,122 @@
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.container{
+  width: 1440px;
+  height: 672px;
+  margin: 0 auto;
+  color: black;
+  display: flex;
+  justify-content: space-around;
+}
+.left-part{
+  padding-top: 105px;
+  padding-left: 129px;
+}
+.text-area {
+  margin-top: 20px;
+}
+.text-area h2{
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 64px;
+}
+.text-area p{
+  width: 470px;
+  margin-top: 30px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+}
+.options-area {
+  margin-top: 15px;
+}
+.option{
+  width: 190px;
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  column-gap: 8px;
+  grid-row-gap: 10px;
+  text-decoration: none;
+  position: relative;
+}
+.left-side-of-section{
+  display: flex;
+  align-items: center;
+  flex-basis: 10%;
+  width: 10%;
+}
+.button-about{
+  margin-top: 30px;
+}
+.button-about a{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+}
+.right-side-of-section{
+  display: flex;
+  flex-basis: 85%;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.right-side-of-section p{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+  opacity: 50%;
+}
+.right-part {
+  display: flex;
+  align-items: center;
+}
+.right-part .image-1{
+  position: relative;
+}
+.right-part .image-2{
+  position: absolute;
+  left: 923px;
+}
+/*animation*/
+.animation-a::before{
+  position: absolute;
+  content: "";
+  width: 0;
+  bottom: 0;
+  transition: all 1s ease;
+  border-bottom: 2px solid black;
+}
+.animation-a:hover::before{
+  transition: all 1s ease;
+  width: 70%;
+}
+.animation-h1{
+  transition: all 1s ease-in-out;
+}
+.animation-h1:hover{
+  color:red;
+  cursor: grab;
+  transition: all 1s ease-in-out;
+}
+/*animation*/
+.animation-b{
+  position: relative;
+  border: 1px solid gray;
+  padding: 12px 65px 10px;
+  background-color: #FFFFFF;
+  color:#FD5545;
+  transition: all 1s ease;
+  border-radius: 3px;
+}
+.animation-b:hover{
+  transition: all 1s ease;
+  border: 1px solid gray;
+  background-color: #FD5545;
+  color: #FFFFFF;
+}
+/*end of animation*/

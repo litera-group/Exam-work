@@ -1,4 +1,6 @@
-.container{
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+}.container{
   width: 1440px;
   height: 464px;
   margin: 0 auto;

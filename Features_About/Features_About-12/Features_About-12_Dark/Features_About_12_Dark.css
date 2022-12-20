@@ -1,0 +1,87 @@
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.container{
+  width: 1440px;
+  height: 672px;
+  margin: 0 auto;
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.left-part{
+  padding-top: 185px;
+  padding-left: 135px;
+}
+.left-part h2{
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 64px;
+}
+.left-part p{
+  width: 425px;
+  margin-top: 30px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+.left-part h5{
+  margin-top: 30px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+.text-area{
+  position: relative;
+}
+.options{
+  width: 370px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.options a {
+  text-decoration: none;
+  color: white;
+  margin-top: 15px;
+}
+.part-of-options{
+  position: relative;
+  margin-top: 15px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+/*animation*/
+.animation{
+  transition: all 1s ease;
+}
+.animation:hover{
+  color: grey;
+  transition: all 1s ease;
+}
+/*animation*/
+.animation{
+  transition: all 1s ease;
+}
+.animation:hover{
+  color: grey;
+  transition: all 1s ease;
+}
+.animation-a::before{
+  position: absolute;
+  content: "";
+  width: 0;
+  top: 65px;
+  transition: all 1s ease;
+  border-bottom: 2px solid white;
+}
+.animation-a:hover::before{
+  transition: all 1s ease;
+  width: 100%;
+}
+/*end of animation*/
