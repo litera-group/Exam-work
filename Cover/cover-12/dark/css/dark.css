@@ -1,13 +1,14 @@
 body{
     font-family: 'Source Sans Pro', sans-serif;
-    background: linear-gradient(135deg, #FD3E7F 0%, #FD5545 100%);
 }
 
 /*section*/
-.cover-1{
+
+.cover-12{
     width: 1440px;
     height: 800px;
     margin: 0 auto;
+    overflow: hidden;
 }
 /*header*/
 
@@ -33,10 +34,11 @@ body{
 }
 /*nav-menu*/
 .nav-menu {
-    width: 399px;
+    width: 470px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: flex-end;
+    gap: 33px;
 }
 .nav-menu li a{
     position: relative;
@@ -47,22 +49,12 @@ body{
     line-height: 24px;
     color: #FFFFFF;
 }
-/*contact-us */
-.contact-us{
+.search{
+    width: 80px;
     display: flex;
-    border: 1px solid gainsboro;
-    border-radius: 7px;
+    justify-content: space-between;
 }
-.contact-us a{
-    padding: 8px 14.5px;
-    text-align: center;
-    text-decoration: none;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 24px;
-    color: #FFFFFF;
-}
+
 
 /*animation*/
 
@@ -79,12 +71,18 @@ body{
     width: 100%;
     transition: all 1s ease;
 }
-/*contact-us*/
-.contact-us:hover{
-    background-color: #FFFFFF;
-    border: 1px solid #FFFFFF;
+/*animation-us*/
+.animation-us{
+    color: #FFFFFF;
+    background-color: #FD5545;
+    border: 1px solid #FD5545;
+    border-radius: 7px;
 }
-.contact-us a:hover{
+.animation-us:hover{
+    background-color: #FFFFFF;
+    border: 1px solid gray;
+}
+.animation-us:hover{
     color: #FD5545;
 }
 .animation-us{
@@ -93,7 +91,7 @@ body{
 /*/header*/
 
 /*container*/
-.container {
+.container-top {
     margin: 0 auto;
     width: 1170px;
     display: flex;
@@ -102,19 +100,20 @@ body{
 
 /*left-part*/
 
-.left-part {
-    width: 497px;
-    margin-top: 162px;
+.left-part-top {
+    width: 552px;
+    margin-top: 146px;
+    position: absolute;
 }
-.left-part h1{
+.left-part-top h1{
     font-style: normal;
     font-weight: 700;
     font-size: 72px;
     line-height: 72px;
     color: #FFFFFF;
 }
-/*description*/
-.description p {
+.left-part-top p{
+    width: 470px;
     margin-top: 39px;
     font-style: normal;
     font-weight: 400;
@@ -122,14 +121,15 @@ body{
     line-height: 24px;
     color: #FFFFFF;
 }
-/*buttons*/
-.buttons {
+
+/*button*/
+.button-discover{
     width: 370px;
-    margin-top: 32px;
+    margin-top: 31px;
     display: flex;
     justify-content: space-between;
 }
-.buttons a{
+.button-discover a{
     text-decoration: none;
     font-style: normal;
     font-weight: 700;
@@ -139,44 +139,48 @@ body{
 .white{
     color: #FD5545;
 }
-.red{
-    color: #FFFFFF;
-}
 /*bgc*/
 .bgc {
     padding: 14px 58px 10px;
-    background-color: #FFFFFF;;
+    background-color: #FFFFFF;
     border: 1px solid #FFFFFF;
     border-radius: 3px;
-}
-/*br*/
-.br {
-    border: 1px solid gainsboro;
-    padding: 14px 47px 10px;
 }
 
 /*right-part*/
 
-.right-part img{
-    margin-top: 78px;
+.right-part {
+    position: relative;
+    z-index: -1;
+    top: -71px;
+    left: -135px;
+}
+.img-down {
+    position: relative;
+    top: -271px;
+    left: 0px;
+    z-index: 1;
+}
+.img-down-1 {
+    position: relative;
+    top: -600px;
+    left: 0px;
+}
+.img-down-2{
+    position: relative;
+    top: -885px;
+    left: 0px;
 }
 
 /*animation*/
 .bgc:hover{
-    background: linear-gradient(135deg, #FD3E7F 0%, #FD5545 100%);
-    border: 1px solid gainsboro;
+    background-color: #FD5545;
+    border: 1px solid gray;
     color: #FFFFFF;
 }
 .animation-white{
     transition: all 1s ease;
 }
-.br:hover{
-    background-color: #FFFFFF;
-    border: 1px solid #FFFFFF;
-    color: #FD5545;
-}
-.animation-red{
-    transition: all 1s ease;
-}
+
 
 /*/section*/
