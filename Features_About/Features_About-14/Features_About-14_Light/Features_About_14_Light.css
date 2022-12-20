@@ -1,0 +1,80 @@
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.container{
+  width: 1440px;
+  height: 672px;
+  margin: 0 auto;
+  color: black;
+  display: flex;
+  justify-content: space-around;
+}
+.left-part-of-page{
+  margin-top: 121px;
+  position: relative;
+}
+.left-part-of-page h2{
+  width: 439px;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 64px;
+}
+.left-part-of-page p{
+  width: 470px;
+  margin-top: 30px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+.bottom-text{
+  margin-top: 30px;
+  gap: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+.bottom-text h1{
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 72px;
+}
+.bottom-text h3{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+.bottom-text p{
+  width: 270px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+  opacity: 50%;
+}
+.right-part-of-page{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+/*animation*/
+.animation-h2{
+  transition: all 1s ease-in-out;
+}
+.animation-h2:hover{
+  color:red;
+  cursor: grab;
+  transition: all 1s ease-in-out;
+}
+/*  -- -- -- */
+.animation-a::before{
+  position: absolute;
+  content: "";
+  width: 0;
+  top: 205px;
+  transition: all 1s ease;
+  border-bottom: 2px solid black;
+}
+.animation-a:hover::before{
+  transition: all 1s ease;
+  width: 80%;
+}
+/*end of animation*/
