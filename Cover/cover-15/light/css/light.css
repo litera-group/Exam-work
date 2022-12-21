@@ -49,6 +49,9 @@ body{
     line-height: 24px;
     color: #333333;
 }
+.animation-img img{
+    transition: all 1s ease;
+}
 
 /*animation*/
 
@@ -65,13 +68,18 @@ body{
     width: 100%;
     transition: all 1s ease;
 }
+.animation-img img:hover{
+    width: 28px;
+    height: 28px;
+    transition: all 1s ease;
+}
 
 /*/header*/
 
 /*container*/
 .container-top {
     margin: 0 auto;
-    width: 1170px;
+    width: 1440px;
     display: flex;
     justify-content: space-between;
 }
@@ -79,9 +87,11 @@ body{
 /*left-part*/
 
 .left-part-top {
-    width: 610px;
-    margin-top: 146px;
+    width: 553px;
+    margin-left: 443.5px;
+    margin-top: 290px;
     position: absolute;
+    text-align: center;
 }
 .left-part-top h1{
     font-style: normal;
@@ -90,90 +100,14 @@ body{
     line-height: 72px;
     color: #333333;
 }
-.left-part-top p{
-    width: 470px;
-    margin-top: 39px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #333333;
-}
-
-/*button*/
-.button-register{
-    width: 470px;
-    margin-top: 31px;
-    display: flex;
-    justify-content: space-between;
-}
-.button-register a{
-    text-decoration: none;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 24px;
-}
-.button-register form input{
-    width: 249px;
-    height: 42px;
-    padding-left: 15px;
-    border-radius: 3px;
-}
-
-/*description-register*/
-.description-register {
-    width: 188px;
-    margin-top: 18px;
-    display: flex;
-}
-.description-register h2{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 24px;
-    color: #333333;
-}
-.description-register a{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 24px;
-    color: #FD5545;
-    text-decoration: none;
-    margin-left: 2.5px;
-}
-
-.white{
-    color: #FFFFFF;
-}
-/*bgc*/
-.bgc {
-    padding: 14px 58px 10px;
-    background-color: #FD5545;
-    border: 1px solid #FD5545;
-    border-radius: 3px;
-}
 
 /*right-part*/
 
 .right-part-top img{
     position: relative;
     z-index: -1;
-    top: -71px;
-    left: 357px;
+    top: 25px;
+    left: 0px;
 }
-
-
-/*animation*/
-.bgc:hover{
-    background-color: #FFFFFF;
-    border: 1px solid gray;
-    color: #FD5545;
-}
-.animation-white{
-    transition: all 1s ease;
-}
-
 
 /*/section*/
