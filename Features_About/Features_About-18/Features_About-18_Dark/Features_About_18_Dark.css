@@ -1,0 +1,107 @@
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.container{
+  width: 1440px;
+  height: 560px;
+  margin: 0 auto;
+  background-color: #333333;
+  color: white;
+}
+.text-area{
+  align-items: center;
+  padding-top: 53px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  text-align: center;
+}
+.top-upper-text h1{
+  width: 324px;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 64px;
+  text-align: center;
+}
+.top-bottom-text h4{
+  width: 770px;
+  height: 82px;
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+}
+.area-with-sections{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 135px;
+  padding-right: 135px;
+  gap: 30px;
+}
+.section{
+  width: 570px;
+  height: 208px;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  text-decoration: none;
+  color:white;
+background-color: rgba(255, 255, 255, 0.05);
+}
+.section h2{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+.section p{
+  margin-top: 10px;
+  width: 350px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.left-side-of-section{
+  margin-top: 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-basis: 30%;
+  width: 30%;
+}
+.right-side-of-section{
+  margin-top: 20px;
+  display: flex;
+  flex-basis: 70%;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.learn-more{
+  margin-top: 20px;
+}
+.learn-more span{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: red;
+  text-decoration: none;
+}
+
+/*animation*/
+h2 {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+@keyframes slidein {
+  from {
+    margin-left: 50%;
+    width: 150%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+/*end of animation*/
