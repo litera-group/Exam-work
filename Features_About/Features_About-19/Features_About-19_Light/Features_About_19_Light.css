@@ -1,0 +1,80 @@
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.container{
+  width: 1440px;
+  height: 496px;
+  margin: 0 auto;
+  color: #333333;
+}
+.content{
+  gap: 160px;
+  padding-left: 135px;
+  padding-right: 135px;
+  display: flex;
+  align-items: center;
+}
+.left-part-of-page h1{
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 64px;
+}
+.left-part-of-page p{
+  margin-top: 25px;
+  width: 469px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.learn-more{
+  margin-top: 35px;
+}
+.learn-more a{
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  position: relative;
+}
+.general-picture{
+  margin-top: 82px;
+  position: relative;
+}
+.picture-oval{
+  left: 200px;
+  position: relative;
+  top: -217px;
+}
+.picture-oval:before {
+  content: "";
+  display: block;
+  width: 69px;
+  height: 69px;
+  background-image: url(../imgs/Oval.svg);
+  border: 1px solid black;
+  border-radius: 38px;
+}
+.picture-triangle{
+  left: 230px;
+  position: relative;
+  top: -264px;
+}
+.right-part-of-page{
+  width: 0px;
+}
+/*animation*/
+.animation-red::before{
+  content: '';
+  border-bottom: 2px solid red;
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  transition: all 1s ease;
+}
+.animation-red:hover::before{
+  width: 100%;
+  transition: all 1s ease-in-out;
+}
+/*end of animation*/
