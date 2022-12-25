@@ -1,0 +1,56 @@
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.container{
+  width: 1440px;
+  height: 768px;
+  margin: 0 auto;
+  background-color: #333333;
+  color: white;
+}
+.content{
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 135px;
+  gap: 30px;
+}
+.left-side-of-page{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.right-side-of-page{
+  overflow: hidden;
+}
+.section{
+  width: 386px;
+  height: 113px;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 24px 32px;
+}
+.section-red{
+  background-color: red;
+}
+.section-red::after{
+  content: url(../imgs/Triangle\ \(1\).svg);
+  margin-left: 417px;
+  margin-top: -73px;
+  display: flex;
+  align-items: flex-end;
+}
+.section h2{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+.section p{
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+to {
+  margin-left: 0%;
+  width: 100%;
+}undefined}undefined/*end of animation*/undefined
