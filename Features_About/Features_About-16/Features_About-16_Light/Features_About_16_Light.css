@@ -5,8 +5,7 @@ body{
   width: 1440px;
   height: 768px;
   margin: 0 auto;
-  background-color: #333333;
-  color: white;
+  color: #333333;
 }
 .content{
   display: flex;
@@ -26,7 +25,7 @@ body{
 .section{
   width: 386px;
   height: 113px;
-  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid grey;
   padding: 24px 32px;
 }
 .section-red{
