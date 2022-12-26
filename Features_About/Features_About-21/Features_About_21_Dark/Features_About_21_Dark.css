@@ -1,0 +1,75 @@
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.container{
+  width: 1440px;
+  height: 688px;
+  margin: 0 auto;
+  background-color: #333333;
+  color: white;
+}
+.content{
+  padding-left: 235px;
+  display: flex;
+  align-items: center;
+}
+
+/*left part*/
+.left-part-of-page{
+  width: 471px;
+  z-index: 2;
+  position: relative;
+}
+.text-area h2{
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 64px;
+}
+.text-area p{
+  width: 370px;
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.button-about{
+  margin-top: 40px;
+}
+.button-about a{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+/*right part*/
+.right-part-of-page{
+  width: 0px;
+  height: 688px;
+  display: flex;
+  align-items: center;
+}
+.right-part-of-page img{
+  position: relative;
+  right: 79px;
+  z-index: 1;
+}
+
+/*animation*/
+.animation-b{
+  position: relative;
+  border: 1px solid gray;
+  padding: 12px 65px 10px;
+  background-color: #FD5545;
+  color:#FFFFFF;
+  transition: all 1s ease;
+  border-radius: 3px;
+}
+.animation-b:hover{
+  transition: all 1s ease;
+  border: 1px solid gray;
+  background-color: #FFFFFF; 
+  color: #FD5545;
+}
+/*end of animation*/
