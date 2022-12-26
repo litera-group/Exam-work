@@ -1,0 +1,88 @@
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.container{
+  width: 1440px;
+  height: 416px;
+  margin: 0 auto;
+  color: #333333;
+}
+.content{
+  display: flex;
+  gap: 130px;
+}
+/*left part */
+.left-part-of-page{
+  margin-top: 99px;
+  margin-left: 135px;
+  width: 170px;
+}
+.left-part-of-page h2{
+  font-weight: 700;
+  font-size: 160px;
+  line-height: 201px;
+  color: #FD5545;
+}
+.left-part-of-page p{
+  margin-top: -10px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+  text-transform: uppercase;
+}
+/*right part */
+.right-part-of-page{
+  margin-right: 315px;
+  margin-top: 104px;
+}
+.right-part-text h3{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333333;
+}
+.right-part-text p{
+  padding-top: 15px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+  opacity: 0.5;
+}
+/*right bottom part*/
+.bottom-area{
+  width: 690px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.section{
+  height: 110px;
+  display: flex;
+  flex-direction: column;
+  width: 118px;
+  padding: 10px;
+  text-decoration: none;
+  color: #333333;
+}
+.section h3{
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 64px;
+}
+.section p{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+/*animation*/
+.animation{
+  transition: all 1s ease;
+}
+.animation:hover{
+  color: #FD5545;
+  transition: all 1s ease;
+}
+/*end of animation*/
