@@ -50,8 +50,10 @@ body{
   font-size: 16px;
   line-height: 24px;
 }
-to {
-  margin-left: 0%;
-  width: 100%;
+/*animation*/
+.section {
+animation-name: fadeInOut, moveLeft300px, bounce;
+animation-duration: 3s;
+animation-iteration-count: 1;
 }
 /*end of animation*/
