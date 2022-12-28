@@ -1,0 +1,72 @@
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.container{
+  width: 1440px;
+  height: 720px;
+  margin: 0 auto;
+  background-color: #333333;
+  color: white;
+}
+.content{
+  display: flex;
+  gap: 50px;
+}
+.left-part-of-page{
+  margin-top: 137px;
+  margin-left: 135px;
+}
+.text-area h2{
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 64px;
+}
+.text-area h3{
+  margin-top: 15px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+.text-area p{
+  width: 370px;
+  margin-top: 5px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.button-about{
+  margin-top: 40px;
+  width: 170px;
+  height: 48px;
+}
+.button-about a{
+  white-space: nowrap;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 50px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.right-part-of-page img{
+  margin: 80px 135px 80px auto;
+  width: 770px;
+  height: 560px;
+}
+/*animation*/
+.animation-b{
+  position: relative;
+  border: 1px solid gray;
+  background-color: #FD5545;
+  color:white;
+  transition: all 1s ease;
+  border-radius: 3px;
+}
+.animation-b:hover{
+  transition: all 1s ease;
+  border: 1px solid gray;
+  background-color: white; 
+  color: #333333;
+}
+/*end of animation*/
