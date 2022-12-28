@@ -1,0 +1,150 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.cta_11{
+    width: 1170px;
+
+    margin: 0 auto;
+}
+
+.text_inf_alla{
+    width: 475px;
+}
+
+.text_inf_alla h1{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 64px;
+    color: #333333;
+    margin-top: 89px;
+}
+
+.text_inf_alla p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 23px;
+    color: #333333;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.adress_ksks p{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 14px;
+    color: #333333;
+}
+.adress_ksks span{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 8px;
+    color: #333333;
+}
+
+.adress_ksks{
+    width: 226px;
+}
+
+.disp_for_contacts{
+    width: 470px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactss_lal h2{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 14px;
+    color: #333333;
+}
+
+.contactss_lal p{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+}
+
+.contactss_lal span{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 8px;
+    color: #333333;
+}
+
+.contactss_lal{
+    margin-left: 30px;
+}
+
+
+.form_message_ala input{
+    margin-top: 35px;
+    width: 570px;
+    height: 91px;
+    align-items: center;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    padding-left: 15px;
+    }
+
+.send-message_cta11{
+    margin-top: 32px;
+    width: 170px;
+    height: 48px;
+    background-color: #FD5545;
+    border: none;
+    border-radius: 5%;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    margin-left: 200px;
+}
+
+.w_for_right_part{
+    margin-left: 600px;
+    width: 600px;
+    margin-top: -40px;
+}
+
+.name_formwd input{
+    width: 130px;
+    height: 48px;
+    align-items: center;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    padding-left: 15px;
+    
+}
+
+.display_for_forms{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    margin-top: -130px;
+    
+}
+
+.email_formdw input{
+    width: 130px;
+    height: 48px;
+    align-items: center;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    padding-left: 15px;
+}
+
+.theme_formdw input{
+    width: 130px;
+    height: 48px;
+    align-items: center;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    padding-left: 15px;
+}

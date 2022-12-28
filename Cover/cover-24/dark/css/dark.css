@@ -1,0 +1,132 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*section*/
+.cover{
+    width: 1440px;
+    height: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+/*header*/
+
+.header-menu {
+    width: 1170px;
+    margin: 0 auto;
+    margin-top: 23px;
+}
+/*top-menu*/
+.top-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*logo*/
+.logo a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+/*nav-menu*/
+.nav-menu {
+    width: 298px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-menu li a{
+    position: relative;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+/*animation*/
+
+/*animation-bottom*/
+.animation-bottom::before{
+    content: '';
+    border-bottom: 1px solid #FFFFFF;
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    transition: all 1s ease;
+}
+.animation-bottom:hover::before{
+    width: 100%;
+    transition: all 1s ease;
+}
+
+/*/header*/
+
+/*creative*/
+.container-top{
+    width: 1170px;
+    margin: 0 auto;
+    margin-top: 258px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*left-part-top*/
+.left-part-top h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FFFFFF;
+}
+.left-part-top h4{
+    margin-top: 31px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FD5545;
+}
+
+/*right-part*/
+.right-part-top{
+    width: 16px;
+    height: 112px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+}
+.oval{
+    width: 8px;
+    height: 8px;
+}
+
+/*animation-for-oval*/
+.animation-oval{
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: all 1s ease;
+}
+.animation-oval:hover{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #FD5545;
+    transition: all 1s ease;
+}
+
+/*bgc-img*/
+
+.bgc-img{
+    position: relative;
+    top: -460px;
+    z-index: -1;
+}
+
+/*/section*/
