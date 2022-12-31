@@ -1,0 +1,44 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.footer1{
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+    height: 112px;
+    width: 100%;
+}
+
+.footer1 .copyright{
+    margin-left: 135px;
+    margin-top: 48px;
+    margin-bottom: 40px;
+}
+
+.footer1 .offer{
+    margin-right: 135px;
+    margin-top: 48px;   
+}
+
+.footer1 .offer a{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+}
+
+/* dark */
+
+.footer1-dark{
+    background-color: #333333;
+}
+
+.footer1 .copyright-dark{
+    color: #fff;
+}
+
+.footer1 .offer-dark a{
+    color: #fff;
+}
+

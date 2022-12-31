@@ -1,0 +1,64 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.footer14{
+    width: 1440px;
+    height: 336px;
+    width: 100%;
+}
+
+.footer14 .main{
+    position: relative;
+}
+
+.footer14 .main .title{
+    position: absolute;
+    font-size: 16px;
+    font-weight: 700;
+    top: 48px;
+    left: 672px;
+}
+
+.footer14 .main .text{
+    position: absolute;
+    font-size: 16px;
+    line-height: 24px;
+    top: 96px;
+    left: 435px;
+    width: 570px;
+    height: 66px;
+}
+
+.footer14 .main .logos{
+    position: absolute;
+    top: 220px;
+    left: 648px;
+    display: flex;
+    gap: 16px;
+}
+
+.footer14 .main .license{
+    position: absolute;
+    font-size: 16px;
+    top: 272px;
+    left: 593px;
+}
+
+/* footer14-dark */
+
+.footer14-dark{
+    background-color: #333333;
+}
+
+.footer14 .main .title-dark{
+    color: #fff;
+}
+
+.footer14.main .text-dark{
+    color: #fff;
+}
+
+.footer14 .main .license-dark{
+    color: #fff;
+}
