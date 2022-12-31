@@ -1,0 +1,76 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.footer3{
+    width: 1440px;
+    height: 256px;
+    width: 100%;
+}
+
+.footer3 .top-side{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer3 .top-side .logo{
+    margin-top: 55px;
+    margin-left: 135px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #333333;
+    text-decoration: none;
+}
+
+.footer3 .top-side .menu{
+    margin-top: 64px;
+    display: flex;
+    gap: 141px;
+    margin-right: 232px;
+    
+}
+
+.footer3 .top-side .menu a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #000;
+    padding-bottom: 8px;
+}
+
+.footer3 .bottom-side{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.footer3 .bottom-side .logos{
+    display: flex;
+    gap: 24px;
+    margin-left: 135px;
+}
+
+.footer3 .bottom-side span{
+    margin-right: 135px;
+    color: grey;
+}
+
+/* footer3-dark*/
+
+.footer3-dark{
+    background-color: #333333;
+}
+
+.footer3 .top-side .logo-dark{
+    color: #fff;
+}
+
+.footer3 .top-side .menu-dark a{
+    color: #fff;
+}
+
+.footer3 .bottom-side-dark span{
+    color: grey;
+}
+
+

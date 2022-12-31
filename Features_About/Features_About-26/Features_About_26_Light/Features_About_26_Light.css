@@ -1,0 +1,93 @@
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.container{
+  width: 1440px;
+  height: 672px;
+  margin: 0 auto;
+  color: #333333;
+  background-image: url(../imgs/rachit-tank-2cFZ_FB08UM-unsplash.jpg);
+  background-repeat: repeat;
+  background-position: center;
+  overflow: hidden;
+}
+.content{
+  display: flex;
+  justify-content: space-around;
+}
+
+/* text area */
+.text-area{
+  z-index: 2;
+  position: absolute;
+  margin-top: 156px;
+  margin-left: 756px;
+  width: 550px;
+}
+.section{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  text-decoration: none;
+  color: #333333;
+}
+.left-part-of-section{
+  display: flex;
+  align-items: flex-start;
+}
+.right-part-of-section{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.left-part-of-section img{
+  width: 54px;
+  height: 54px;
+  position: absolute;
+}
+.section h2{
+  color: grey;
+  text-shadow: 2px 2px white;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+.section p{
+  margin-top: 8px;
+  text-shadow: 2px 2px white;
+  width: 495px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  opacity: 50%;
+}
+.left-part-of-section h3{
+  position: relative;
+  top: 10px;
+  left: 21px;
+  width		: 100%;
+  color: white;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+/*animation*/
+.animation {
+  animation-duration: 2s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-top: 100%;
+    height: 150%;
+  }
+
+  to {
+    margin-top: 0%;
+    height: 100%;
+  }
+}
+/*end of animation*/

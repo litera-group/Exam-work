@@ -1,0 +1,57 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.footer2{
+    width: 1440px;
+    height: 256px;
+    width: 100%;
+}
+
+.footer2 .menu{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.footer2 .menu a{
+    text-decoration: none;
+    color: #000;
+    margin-top: 64px;
+}
+
+.footer2 .license{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 56px;
+    color: grey;
+}
+
+.footer2 .logos{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 27px;
+}
+
+/* footer2-dark*/
+
+.footer2-dark{
+    width: 1440px;
+    height: 256px;
+    background-color: #333333;
+}
+
+
+.footer2 .menu-dark a{
+    color: #fff;
+}
+
+.footer2 .license{
+    color: grey;
+}
+
+
+
