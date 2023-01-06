@@ -1,0 +1,34 @@
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.container{
+  width: 1440px;
+  height: 320px;
+  margin: 0 auto;
+}
+.content{
+  padding: 73px 226px;
+  display: flex;
+  justify-content: space-around;
+}
+.section{
+  width: 270px;
+  height: 115px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  text-decoration: none;
+  color: #333333;
+  text-align: center;
+}
+.section h2{
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 64px;
+}
+.section p{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
