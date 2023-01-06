@@ -1,0 +1,79 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.footer13{
+    width: 1440px;
+    height: 160px;
+    width: 100%;
+}
+
+.footer13 .main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer13 .main .right-side{
+    display: flex;
+    margin-top: 48px;
+    margin-left: 135px;
+    gap: 20px;
+}
+
+.footer13 .main .right-side a{
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.footer13 .main .left-side{
+    display: flex;
+    margin-top: 44px;
+    margin-right: 135px;
+}
+
+.footer13 .main .left-side img{
+    margin-left: 16px;
+}
+
+.footer13 .bottom-side{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer13 .bottom-side span{
+    margin-left: 135px;
+    margin-top: 24px;
+}
+
+.footer13 .bottom-side .privacy{
+    display: flex;
+    gap: 20px;
+    margin-top: 28px;
+    margin-right: 135px;
+}
+
+.footer13 .bottom-side .privacy a{
+    color: #000;
+    text-decoration: none;
+}
+
+/* footer13-dark */
+
+.footer13-dark{
+    background-color: #333333;
+}
+
+.footer13 .main .right-side-dark a{
+    color: #fff;
+}
+
+.footer13 .bottom-side-dark span{
+    color: #FFFFFF;
+}
+
+
+.footer13 .bottom-side .privacy-dark a{
+    color: #fff;
+}

@@ -1,0 +1,94 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.footer18{
+    width: 1440px;
+    height: 400px;
+    width: 100%;
+}
+
+.footer18 .main{
+    display: flex;
+}
+
+.footer18 .main .titles{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+.footer18 .main .list{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+    justify-content: space-between;
+}
+
+.footer18 .main ul li a{
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer18 .main .first-block{
+    margin-top: 64px;
+    margin-left: 135px;
+}
+
+.footer18 .main .second-block{
+    margin-top: 64px;
+    margin-left: 241px;
+}
+
+.footer18 .main .third-block{
+    margin-top: 64px;
+    margin-left: 227px;
+}
+
+.footer18 .main .fourth-block{
+    margin-top: 64px;
+    margin-left: 200px;
+}
+
+.footer18 .bottom-side{
+    position: relative;
+}
+
+.footer18 .bottom-side .license{
+    position: absolute;
+    left: 572px;
+    top: 56px;
+    color: #333333;
+    font-size: 16px;
+}
+
+.footer18 .bottom-side .logos{
+    position: absolute;
+    left: 635px;
+    top: 107px;
+    display: flex;
+    gap: 24px;
+}
+
+
+/* footer18-dark */
+
+.footer18-dark{
+    background-color: #333333;
+}
+
+
+.footer18 .main .titles-dark{
+    color: #fff;
+}
+
+.footer18-dark .main ul li a{
+    color: #fff;
+}
+
+.footer18 .bottom-side .license-dark{
+    color: #fff;
+}

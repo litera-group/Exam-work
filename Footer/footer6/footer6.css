@@ -1,0 +1,121 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.footer6{
+    width: 1440px;
+    height: 400px;
+    width: 100%;
+}
+
+.footer6 .main{
+    display: flex;
+}
+
+.footer6 .main .first-block{
+    margin-left: 135px;
+}
+
+.footer6 .main .titles{
+    margin-top: 64px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.footer6 .main .first-block .text{
+    width: 270px;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 24px;
+}
+
+.footer6 .main .second-block{
+    margin-left: 30px;
+}
+
+.footer6 .main .second-block .tweets{
+    display: flex;
+    margin-top: 24px;
+    gap: 8px;
+    align-items: baseline;
+}
+
+.footer6 .main .second-block .tweets p{
+    width: 238px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.footer6 .main .third-block{
+    margin-left: 30px;
+}
+
+.footer6 .main .third-block .cards{
+    margin-top: 24px;
+}
+
+.footer6 .main .third-block .cards img{
+    margin-right: 18px;
+    margin-bottom: 16px;
+}
+
+.footer6 .main .fourth-block{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer6 .main .fourth-block input{
+    margin-top: 24px;
+    width: 270px;
+    height: 48px;
+}
+
+.footer6 .main .fourth-block button{
+    margin-top: 16px;
+    width: 270px;
+    height: 48px;
+    background-color: #FD5545;
+    border: none;
+    font-size: 16px;
+    color: #fff;
+}
+
+.footer6 .bottom-side{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 67px;
+}
+
+.footer6 .bottom-side .license{
+    margin-left: 135px;
+    font-size: 16px;
+    color: #333;
+}
+
+.footer6 .bottom-side .logos{
+    margin-right: 135px;
+}
+
+.footer6 .bottom-side .logos img{
+    margin-left: 16px;
+}
+
+/* footer6-dark */
+
+.footer6-dark{
+    background-color: #333333;
+}
+
+.footer6-dark .main .first-block .text{
+    color: #fff;
+}
+
+.footer6-dark .main .titles{
+    color: #fff;
+}
+
+.footer6-dark .main .second-block .tweets p{
+    color: #fff;
+}

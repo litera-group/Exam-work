@@ -1,0 +1,112 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.footer9{
+    width: 1440px;
+    height: 384px;
+    width: 100%;
+}
+
+.footer9 .main{
+    display: flex;
+}
+
+.footer9 .main .first-block {
+    margin-top: 55px;
+    margin-left: 135px;
+}
+
+
+.footer9 .main .first-block .logo{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.footer9 .main .first-block .contacts{
+    margin-top: 41px;
+}
+
+.footer9 .main .first-block .contacts ul li{
+    margin-top: 14px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.footer9 .main .titles{
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 64px;
+}
+
+.footer9 .main .list{
+    margin-top: 24px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.footer9 .main .list li{
+    margin-top: 8px;
+}
+
+
+.footer9 .main .second-block{
+    margin-left: 100px;
+}
+
+.footer9 .main .third-block{
+    margin-left: 222px;
+}
+
+.footer9 .main .fourth-block{
+    margin-left: 227px;
+}
+
+.footer9 .bottom-side{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer9 .bottom-side .license{
+    margin-top: 72px;
+    margin-left: 135px;
+}
+
+.footer9 .bottom-side .logos{
+    display: flex;
+    gap: 16px;
+    margin-right: 135px;
+    margin-top: 68px;
+}
+
+/* footer9-dark */
+
+.footer9-dark{
+    background-color: #333333;
+}
+
+
+.footer9 .main .first-block .logo-dark{
+    color: #fff;
+}
+
+
+.footer9 .main .first-block .contacts-dark ul li{
+    color: #fff;
+}
+
+.footer9 .main .titles-dark{
+    color: #fff;
+
+}
+
+.footer9 .main .list-dark{
+    color: #fff;
+}
+
+.footer9 .bottom-side .license-dark{
+    color: #fff;
+}

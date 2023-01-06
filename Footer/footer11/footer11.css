@@ -1,0 +1,147 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.footer11{
+    width: 1440px;
+    height: 800px;
+    width: 100%;
+}
+
+.footer11 .main{
+    height: 640px;
+    
+    display: flex;
+}
+
+.footer11 .main .left-side{
+    position: relative;
+}
+
+.footer11 .main .left-side .map{
+    margin-top: 80px;
+    margin-left: 135px;
+    width: 570px;
+    height: 480px;
+    overflow: hidden;
+}
+
+.footer11 .main .left-side .mark{
+    position: absolute;
+    top: 280px;
+    left: 403px;
+    z-index: 1;
+}
+
+.footer11 .main .right-side{
+    margin-left: 130px;
+    margin-top: 137px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer11 .main .right-side .title{
+    font-size: 56px;
+    font-weight: 700;
+
+    line-height: 64px;
+}
+
+.footer11 .main .right-side .text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    
+    width: 370px;
+    margin-top: 23px;
+}
+
+.footer11 .main .right-side span{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    
+
+}
+.footer11 .main .right-side .address{
+    margin-top: 32px;
+}
+
+.footer11 .main .right-side .number{
+    margin-top: 8px;
+}
+
+.footer11 .main .right-side .email{
+    margin-top: 8px;
+}
+
+.footer11 .main .right-side .subscribe input{
+    width: 270px;
+    height: 75px;
+
+}
+
+.footer11 .main .right-side .subscribe .btn{
+    width: 170px;
+    height: 48px;
+    background-color: #FD5545;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    border: none;
+    margin-left: 30px;
+}
+
+.footer11 .bottom-side{
+    height: 160px;
+    background-color: #F5F5F5;
+    position: relative;
+}
+
+.footer11 .bottom-side .logos{
+    position: absolute;
+    top: 44px;
+    left: 648px;
+    display: flex;
+    gap: 16px;
+}
+
+.footer11 .bottom-side .license{
+    position: absolute;
+    font-size: 16px;
+
+    left: 593px;
+    top: 96px;
+}
+
+/* footer11-dark */
+
+.footer11 .main-dark{
+    background-color: #333333;
+
+}
+
+.footer11 .main .right-sideda .title-dark{
+    color: #fff;
+}
+
+.footer11 .main .right-side .text-dark{
+    color: #D8D8D8;
+}
+
+.footer11 .main .right-side-dark span{
+    color: #D8D8D8;
+}
+
+.footer11 .main .right-side .subscribe-dark input{
+    background-color: #D8D8D8;
+}
+
+.footer11 .bottom-side-dark{
+    background-color: #222222;
+}
+
+
+.footer11 .bottom-side .license-dark{
+    color: #fff;
+}

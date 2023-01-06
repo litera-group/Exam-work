@@ -1,0 +1,48 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.footer17{
+    width: 1440px;
+    height: 128px;
+    width: 100%;
+}
+
+.footer17 .main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer17 .main .logo{
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 41px;
+    margin-left: 135px;
+}
+
+.footer17 .main .license{
+    margin-top: 54px;
+    font-size: 16px;
+}
+
+.footer17 .main .logos{
+    margin-top: 52px;
+    margin-right: 135px;
+    display: flex;
+    gap: 16px;
+}
+
+/* footer17 */
+
+.footer17-dark{
+    background-color: #333333;
+}
+
+.footer17 .main .logo-dark{
+    color: #fff;
+}
+
+.footer17 .main .license-dark{
+    color: #fff;
+}
+
