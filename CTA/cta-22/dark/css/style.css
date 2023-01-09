@@ -1,0 +1,106 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #333333;
+}
+
+.cta-22{
+    width: 1440px;
+    margin: 0 auto;
+
+}
+
+.main_cntc22{
+    width: 1170px;
+    height: 192px;
+    background-color: #333333;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    position: relative;
+    z-index: 2;
+    margin-left: 135px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.map_22{
+    margin-top: -88px;
+    position: relative;
+    z-index: 1;
+}
+
+.pin_22{
+    margin-top: -167px;
+    position: relative;
+    z-index: 2;
+    margin-left: 693px;
+    display: block;
+}
+
+.part_1_22{
+    width: 258px;
+    margin-left: -35px;
+}
+
+.part_1_22 h1{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    margin-top: -26px;
+}
+.part_1_22 img{
+    margin-left: -43px;
+    margin-top: 47px;
+}
+
+.part_1_22 p{
+    margin-top: 8px;
+    color: #fff;
+}
+
+
+.part_2_22{
+    width: 258px;
+    margin-left: -80px;
+    display: block;
+}
+
+.part_2_22 h2{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    margin-top: -26px;
+}
+.part_2_22 img{
+    margin-left: -43px;
+    margin-top: 47px;
+}
+
+.part_2_22 p{
+    margin-top: 8px;
+    color: #fff;
+}
+
+
+.part_3_222{
+    margin-left: -80px;
+}
+
+.part_3_222 h3{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    margin-top: -26px;
+}
+.part_3_222 img{
+    margin-left: -43px;
+    margin-top: 47px;
+}
+
+.part_3_222 p{
+    margin-top: 8px;
+    width: 134px;
+    color: #fff;
+}

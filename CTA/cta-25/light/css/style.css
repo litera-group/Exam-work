@@ -1,0 +1,93 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.cta-25{
+    width: 1120px;
+    margin: 0 auto;
+}
+
+.part_1_25{
+    width: 520px;
+    height: 185px;
+    margin-top: 108px;
+}
+
+.part_1_25 h1{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 64px;
+    color: #333333;
+    margin-left: 185px;
+    margin-top: -165px;
+}
+
+.part_1_25 p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    margin-left: 185px;
+    margin-top: 13px;
+}
+
+.send-message25-1{
+    width: 170px;
+    height: 48px;
+    background: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 24px;
+    margin-left: 185px;
+    display: block;
+    border: none;
+}
+.send-message25-1 a{
+    color: #FD5545;
+    text-decoration: none;
+}
+
+
+.part_2_25{
+    width: 520px;
+    height: 185px;
+    margin-top: -185px;
+    margin-left: 600px;
+}
+
+.part_2_25 h1{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 64px;
+    color: #333333;
+    margin-left: 185px;
+    margin-top: -165px;
+}
+
+.part_2_25 p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    margin-left: 185px;
+    margin-top: 13px;
+}
+
+.send-message25-2{
+    width: 170px;
+    height: 48px;
+    background: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 24px;
+    margin-left: 185px;
+    display: block;
+    border: none;
+}
+.send-message25-2 a{
+    color: #FD5545;
+    text-decoration: none;
+}
+

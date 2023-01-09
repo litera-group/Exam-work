@@ -1,0 +1,68 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.cta-23{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.main_div23{
+    width: 1170px;
+    height: 240px;
+    border: 1px solid rgba(0,0,0,0.2);
+    margin-top: 80px;  
+}
+
+.main_div23 h1{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #333333;
+    margin-left: 32px;
+    margin-top: 25px;
+}
+
+.main_div23 p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    width: 506px;
+    margin-left: 32px;
+}
+
+.form_email23 input{
+    display: block;
+    margin-top: 26px;
+    width: 300px;
+    height: 48px;
+    padding-left: 15px;
+    margin-left: 32px;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 3px;
+}
+
+.send-message23{
+    width: 170px;
+    height: 48px;
+    background-color: #FD5545;
+    border: solid 1px #FD5545;
+    border-radius: 3px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: -52px;
+    margin-left: 368px;
+    display: block;
+}
+
+.send-message23 a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.main_div23 img{
+    margin-top: -195px;
+    margin-left: 586px;
+}

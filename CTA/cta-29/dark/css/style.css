@@ -1,0 +1,56 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #333333;
+}
+
+.cta-29{
+    width: 770px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.flex_oval29{
+    width: 770px;
+    height: 192px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.secondimg29{
+    position: relative;
+    z-index: 2;
+    margin-top: -122px;
+    margin-left: 50px;
+    display: block;
+}
+
+.oval_indx{
+    position: relative;
+    z-index: 1;
+}
+
+.oval_example p{
+    display: block;
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+}
+
+.h1_cta29{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 64px;
+    color: #fff;
+    margin-top: 73px;
+}
+
+.p_cta29{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    margin-top: 23px
+}
