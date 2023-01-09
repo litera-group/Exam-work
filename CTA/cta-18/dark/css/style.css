@@ -1,0 +1,81 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #333333;
+}
+
+.cta-18{
+    width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.h1_cta18{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 64px;
+    color: #fff;
+    margin-top: 73px;
+}
+
+.p_cta18{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    margin-top: 19px;
+}
+
+.display_for_cards18{
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.cards-common18{
+    width: 370px;
+    height: 352px;
+    margin-top: 44px;
+    background-color: #3D3D3D;
+}
+
+.cards-common18 img{
+    margin-top: 59px;
+}
+
+.cards-common18 h2{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #fff;
+    
+}
+
+.cards-common18 p{
+    width: 306px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    margin-left: 30px;
+    margin-top: 8px;
+}
+
+.cards-common18 a{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color:#FD5545;
+    text-decoration: none;
+    margin-top: 45px;
+    display: block;
+}
+
+.fix2card img{
+    margin-top: 68px;
+}
+
+.fix2card h2{
+    margin-top: 15px;
+    margin-left: 1px;
+}
