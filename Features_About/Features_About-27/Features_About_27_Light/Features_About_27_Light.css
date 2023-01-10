@@ -107,8 +107,6 @@ td {padding-right: 20px; padding-bottom: 4px;}
   100% {background-position: 30px 30px;}
 }
 
-/* end of Javascript code */
-
 .javascript-progress-bar-area{
   margin-top: 50px;
 }
@@ -119,6 +117,7 @@ td {padding-right: 20px; padding-bottom: 4px;}
   text-transform: uppercase;
 }
 
+/*JS values in the table */
 
 .javascript-progress-bar-area [data-value] { 
   position: relative; 
@@ -130,3 +129,5 @@ td {padding-right: 20px; padding-bottom: 4px;}
 	content: attr(data-value) '%';
 	position: absolute; right:0;
 }
+
+/* end of Javascript code */
