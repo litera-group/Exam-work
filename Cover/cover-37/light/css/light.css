@@ -1,0 +1,149 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*section*/
+
+.cover{
+    width: 1440px;
+    height: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+    border: 1px solid gainsboro;
+    position: relative;
+}
+/*header*/
+
+.header-menu {
+    width: 1170px;
+    margin: 0 auto;
+    margin-top: 23px;
+    position: relative;
+    z-index: 3;
+}
+/*top-menu*/
+.top-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*logo*/
+.logo a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #333333;
+}
+/*nav-menu*/
+.nav-menu {
+    width: 193px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-menu li a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+}
+
+/*animation*/
+
+/*animation-bottom*/
+.animation-bottom{
+    color: #333333;
+    transition: all 1s ease;
+}
+.animation-bottom:hover{
+    color: #333333;
+    opacity: 0.4;
+    transition: all 1s ease;
+}
+
+/*/header*/
+
+
+/*container*/
+.container-top {
+    margin: 0 auto;
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*left-part-top*/
+
+.left-part-top {
+    width: 570px;
+    margin-top: 210px;
+    margin-left: 492px;
+    position: absolute;
+    z-index: 3;
+}
+.left-part-top h1{
+    width: 586px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 72px;
+    color: #333333;
+}
+.left-part-top p{
+    width: 470px;
+    margin-left: 200px;
+    margin-top: 39px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+}
+
+/*lear-more*/
+.button-top{
+    display: flex;
+    margin-top: 32px;
+    margin-left: 200px;
+}
+.button-top a{
+    text-align: center;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 24px;
+    padding: 14px 45px 10px;
+    border-radius: 3px;
+}
+/*animation-more*/
+.animation-more{
+    color: #FFFFFF;
+    background-color: #FD5545;
+    border: 1px solid #FD5545;
+    transition: all 1s ease;
+}
+.animation-more:hover{
+    color: #FD5545;
+    background-color: #FFFFFF;
+    border: 1px solid gray;
+    opacity: 0.8;
+    transition: all 1s ease;
+}
+
+/*/left-part-top*/
+
+/*right-part*/
+
+.right-part-top img{
+    position: absolute;
+    z-index: 2;
+    top: 144px;
+    left: 235px;
+}
+
+/*/section*/
