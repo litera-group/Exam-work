@@ -1,0 +1,45 @@
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.container{
+  width: 1440px;
+  height: 624px;
+  margin: 0 auto;
+  background-color: #333333;
+  color: white;
+}
+.content{
+  display: flex;
+  justify-content: space-around;
+}
+h2{
+  width: 368px;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 64px;
+}
+h4{
+  margin-top: 23px;
+  width: 370px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+p{
+  width: 270px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+}
+.left-part{
+  margin-top: 89px;
+  margin-left: 135px;
+}
+.middle-part{
+  margin-top: 80px;
+}
+.right-part{
+  margin-top: 436px; 
+  margin-left: -80px;
+
+}
