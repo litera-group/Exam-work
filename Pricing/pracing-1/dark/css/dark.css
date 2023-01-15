@@ -1,0 +1,130 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+/*pracing*/
+.pracing{
+    width: 100%;
+    height: 928px;
+    margin: 0 auto;
+    position: relative;
+    background-color: #333333;
+}
+
+/*title-pracing*/
+.title-pracing{
+    width: 100%;
+    text-align: center;
+}
+.title-pracing h1{
+    padding-top: 73px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 64px;
+    color: #FFFFFF;
+}
+.title-pracing p{
+    margin: 0 auto;
+    margin-top: 23px;
+    width: 570px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+/*container-pracing*/
+.container-pracing{
+    width: 100%;
+    height: 100%;
+    margin-top: 47px;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+/*box-pracing*/
+.button-pracing {
+    margin-bottom: 52px;
+}
+.box-pracing{
+    width: 270px;
+    height: 544px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    background-color: rgba(255, 255, 255, 0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.box-pracing span{
+    margin-top: 40px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+.box-pracing h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 64px;
+    color: #FD5545;
+}
+.box-pracing h1 img{
+    position: relative;
+    top: -15px;
+    left: 0;
+}
+.box-pracing h2{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.box-pracing h2 img{
+    position: relative;
+    top: 2px;
+    left: -8px;
+}
+
+/*button-pracing*/
+.button-pracing a{
+    padding: 14px 41px 10px 69px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+.button-pracing a img{
+    position: relative;
+    width: 30px;
+    height: 25px;
+    top: 5px;
+    left: -20px;
+}
+
+/*animation-buy*/
+.box-pracing .animation-buy{
+    background-color: #FD5545;
+    border: 1px solid #FD5545;
+    color: #FFFFFF;
+}
+.box-pracing:hover{
+    background-color: #FD5545;
+}
+.box-pracing:hover span,
+.box-pracing:hover h2,
+.box-pracing:hover h1
+{
+    color: #FFFFFF;
+}
+.box-pracing:hover .animation-buy{
+    background-color: #FFFFFF;
+    color: #FD5545;
+}
