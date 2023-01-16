@@ -1,0 +1,109 @@
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.container{
+  width: 1440px;
+  height: 624px;
+  margin: 0 auto;
+  color: #333333;
+}
+h1{
+  font-weight: 700;
+  font-size: 172px;
+  line-height: 216px;
+}
+h2{
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 64px;
+}
+h3{
+  width: 331px;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 64px;
+}
+h5{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin-bottom: 35px;
+}
+p{
+  width: 470px;
+  margin-top: 15px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+ul {
+  list-style-image: url("../logo/check.svg");
+}
+.area-with-table-and-text{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.upper-part-of-table{
+  width: 570px;
+  position: relative;
+}
+.upper-part-of-table:before {
+  content: "";
+  position: absolute;
+  left: 10%;
+  bottom: -5%;
+  width: 80%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2)
+}
+#borderBottom{
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+.bottom-part-of-page{
+  margin-top: 25px;
+  display: flex;
+}
+.left-bottom-part{
+  width: 284px;
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+.right-bottom-part{
+  width: 284px;
+}
+.table-area{
+  margin-top: 80px;
+  width: 570px;
+  height: 464px;
+  background-color: #FD5545;
+  color: white;
+}
+.text-area{
+  margin-top: 137px;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+
+.section{
+  margin-top: 14px;
+  width: 210px;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 8px;
+  text-decoration: none;
+  color: #333333;
+}
+.left-side-of-section{
+  display: flex;
+  align-items: center;
+  flex-basis: 15%;
+  width: 15%;
+}
+.right-side-of-section{
+  display: flex;
+  flex-basis: 85%;
+  align-items: flex-start;
+  margin-top: -15px;
+}
