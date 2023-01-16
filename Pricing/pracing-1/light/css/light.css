@@ -83,15 +83,22 @@ body{
     line-height: 24px;
     color: #333333;
 }
-.box-pracing h2 img{
+.box-pracing .color{
+    color: #FD5545;
+    margin-right: 5px;
+}
+.price{
+    display: flex;
+}
+.price span{
     position: relative;
-    top: 2px;
-    left: -8px;
+    top: -30px;
+    left: 0;
 }
 
 /*button-pracing*/
 .button-pracing a{
-    padding: 14px 41px 10px 69px;
+    padding: 12px 41px 10px 31px;
     border-radius: 3px;
     text-decoration: none;
     font-style: normal;
@@ -99,12 +106,8 @@ body{
     font-size: 16px;
     line-height: 24px;
 }
-.button-pracing a img{
-    position: relative;
-    width: 30px;
-    height: 25px;
-    top: 5px;
-    left: -20px;
+.button-pracing .icon-cart{
+    margin-right: 14px;
 }
 
 /*animation-buy*/
@@ -118,7 +121,8 @@ body{
 }
 .box-pracing:hover span,
 .box-pracing:hover h2,
-.box-pracing:hover h1
+.box-pracing:hover h1,
+.box-pracing:hover .color
 {
     color: #FFFFFF;
 }
