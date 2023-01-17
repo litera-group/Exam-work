@@ -1,0 +1,42 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.testi-7{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.img_testi6{
+    margin-top: 96px;
+    margin-left: 235px;
+}
+
+.h1_testi7{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333333;
+    width: 770px;
+    margin-left: 435px;
+    margin-top: -140px;
+}
+
+.p_testi7{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    margin-left: 435px;
+    margin-top: 15px;
+}
+
+.span_testi7{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    margin-left: 435px;
+}

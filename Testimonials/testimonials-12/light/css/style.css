@@ -1,0 +1,50 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.testi-12{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.bgi_testi12{
+    width: 100%;
+}
+
+.h1_testi12{
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FD5545;
+    margin-top: -430px;
+    margin-left: 266px;
+}
+
+.h2_testi12{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #333333;
+    margin-left: 335px;
+    width: 770px;
+    margin-top: -50px;
+}
+
+.p_testi12{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    margin-left: 335px;
+    margin-top: 22px;
+}
+
+.span_testi12{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    margin-left: 335px;
+}

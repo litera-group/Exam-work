@@ -1,0 +1,96 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.testi-10{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.h1_testi10{
+    margin-top: 152px;
+    margin-left: 135px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333333;
+}
+
+.p_testi10{
+    margin-top: 24px;
+    margin-left: 135px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    width: 270px;
+}
+
+.testi_butt10{
+    width: 170px;
+    height: 48px;
+    background-color: #FD5545;
+    border: solid 1px #FD5545;
+    border-radius: 3px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 14px;
+    margin-left: 135px
+
+}
+
+.testi_butt10 a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.flex_testi10{
+    display: flex;
+    justify-content: space-between;
+    width: 1190px;
+    margin-left: 535px;
+    margin-top: -230px;
+}
+
+.cards_testi10{
+    background-color: #fff;
+    border: solid 1px #dddddd;
+    width: 370px;
+    height: 304px;
+}
+
+.cards_testi10 p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    width: 306px;
+    margin-left: 32px;
+    margin-top: 32px;
+}
+
+.cards_testi10 h2{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    margin-left: 100px;
+    margin-top: -50px;
+    display: block;
+}
+
+.cards_testi10 span{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: #333333;
+    margin-left: 100px;
+    display: block;
+}
+
+.cards_testi10 img{
+    margin-top: 20px;
+    margin-left: 32px;
+    display: block;
+}
