@@ -1,0 +1,131 @@
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.container{
+  width: 1440px;
+  height: 688px;
+  margin: 0 auto;
+}
+.content{
+margin-left: 135px;
+margin-right: 135px;
+display: flex;
+justify-content: space-between;
+}
+h2{
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 64px;
+}
+p{
+  margin-top: 23px;
+  width: 570px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+h4{
+  margin-top: 56px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+.left-part-of-page{
+  margin-top: 111px;
+}
+.right-part-of-page{
+  margin-top: 121px;
+  margin-left: 100px;
+}
+.buttons-section{
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+}
+/* button */
+.button-about{
+  width: 370px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap : 30px;
+}
+.button-about a{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+}
+/*animation*/
+.animation-b{
+  position: relative;
+  border: 1px solid gray;
+  padding: 12px 45px 10px;
+  background-color: #FD5545;
+  color:#FFFFFF;
+  transition: all 1s ease;
+  border-radius: 3px;
+}
+.animation-b:hover{
+  transition: all 1s ease;
+  border: 1px solid gray;
+  background-color: #FFFFFF;
+  color: #FD5545;
+}
+/*end of animation*/
+/*animation*/
+.animation-c{
+  position: relative;
+  border: 1px solid gray;
+  padding: 12px 45px 10px;
+  background-color: #FFFFFF;
+  color:#FD5545;
+  transition: all 1s ease;
+  border-radius: 3px;
+}
+.animation-c:hover{
+  transition: all 1s ease;
+  border: 1px solid gray;
+  background-color: #FD5545;
+  color: #FFFFFF;
+}
+/*end of animation*/
+/* //button */
+
+
+.section{
+  width: 345px;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  column-gap: 7px;
+  text-decoration: none;
+  color: #333333;
+}
+/*
+.section a{
+  padding-bottom: 10px;
+} */
+
+.section p{
+  width: 338px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px; 
+  color: #333333;
+}
+.left-side-of-section{
+  margin-top: 9px;
+  display: flex;
+  align-items: center;
+  flex-basis: 15%;
+  width: 15%;
+}
+.right-side-of-section{
+  display: flex;
+  flex-basis: 85%;
+  align-items: flex-start;
+}
+
