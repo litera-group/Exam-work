@@ -1,0 +1,195 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.testi-20{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.card1_testi20{
+    width: 270px;
+    height: 416px;
+    margin-left: 135px;
+    margin-top: 80px;
+    border: solid 1px #dddddd;
+    text-align: center;
+}
+
+.card1_testi20 img{
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+
+.card1_testi20 h1{
+    display: block;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #fff;
+    margin-top: -120px;
+    position: relative;
+    z-index: 2;
+}
+
+.card1_testi20 span{
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    position: relative;
+    z-index: 2;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.card1_testi20 p{
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    margin-top: 100px;
+    width: 222px;
+    margin-left: 24px;
+}
+
+.card2_testi20{
+    border: solid 1px #dddddd;
+    width: 270px;
+    height: 416px;
+    background-color: #FD5545;
+    margin-left: 435px;
+    margin-top: -418px;
+}
+
+.card2_testi20 h2{
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 72px;
+    color: #fff;
+    margin-left: 24px;
+    margin-top: 24px;
+}
+
+.card2_testi20 p{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #fff;
+    margin-left: 24px;
+    width: 222px;
+}
+
+.card2_testi20 h3{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    margin-left: 24px;
+    margin-top: 24px;
+}
+
+.card2_testi20 span{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    margin-left: 24px;
+}
+
+.flex_testi20{
+    width: 570px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 735px;
+    gap: 32px;
+    margin-top: -419px;
+}
+
+.cards34_testi20{
+    width: 570px;
+    height: 192px;
+    border: solid 1px #dddddd;
+    background-color: #fff;
+}
+
+.cards34_testi20 h2{
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 72px;
+    margin-left: 24px;
+    margin-top: 24px;
+}
+
+.cards34_testi20 p{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    margin-left: 100px;
+    margin-top: -80px;
+}
+
+.cards34_testi20 h3{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 100px;
+    margin-top: 32px;
+}
+
+.cards34_testi20 span{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 100px;
+}
+
+.colors1_card20 h2{
+    color: #333333;
+    mix-blend-mode: normal;
+    opacity: 0.1;
+}
+
+.colors1_card20 p{
+    color: #333333;
+}
+
+.colors1_card20 h3{
+    color: #333333;
+}
+
+.colors1_card20 span{
+    color: #333333;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+
+.colors2_card20 h2{
+    color: #fff;
+    mix-blend-mode: normal;
+    opacity: 0.1;
+}
+
+.colors2_card20 p{
+    color: #fff;
+}
+
+.colors2_card20 h3{
+    color: #fff;
+}
+
+.colors2_card20 span{
+    color: #fff;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.colors2_card20{
+    background-color: #333333;
+}

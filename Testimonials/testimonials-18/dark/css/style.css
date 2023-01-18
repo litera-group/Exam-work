@@ -1,0 +1,44 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #333333;
+}
+
+.testi-18{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.p_testi18{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    margin-top: 185px;
+    margin-left: 135px;
+    width: 470px;
+}
+
+.h1_testi18{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #fff;
+    margin-top: 11px;
+    margin-left: 135px;
+}
+
+.span_testi18{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    margin-top: 8px;
+    margin-left: 135px;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.img_testi18{
+    margin-top: -396px;
+    margin-left: 720px;
+}
