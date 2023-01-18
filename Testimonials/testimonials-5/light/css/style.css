@@ -1,0 +1,25 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.testi-5{
+    width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.h1_testi5{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333333;
+    margin-top: -338px;
+}
+
+.p_testi5{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    margin-top: 36px;
+}

@@ -1,0 +1,61 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.testi-11{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.flex_testi11{
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+    margin-left: 135px;
+    margin-top: 80px;
+}
+
+.cards_testi11{
+    width: 570px;
+    height: 288px;
+    border: solid 1px #dddddd;
+    background-color: #fff;
+}
+
+.cards_testi11 h2{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    margin-left: 100px;
+    margin-top: -50px;
+}
+
+.oval_11{
+    margin-top: 32px;
+    margin-left: 32px;
+}
+
+.cards_testi11 span{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: #333333;
+    margin-left: 100px;
+}
+
+.cards_testi11 p{
+    width: 505px;
+    margin-left: 32px;
+    margin-top: 28px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+}
+
+.flex-stars{
+    margin-left: 32px;
+    margin-top: 10px;
+}
+
