@@ -3,11 +3,10 @@ body{
 }
 /*pracing*/
 .pracing{
-    width: 100%;
-    height: 928px;
+    width: 1440px;
+    height: 896px;
     margin: 0 auto;
     position: relative;
-    background-color: #333333;
 }
 
 /*title-pracing*/
@@ -21,7 +20,7 @@ body{
     font-weight: 700;
     font-size: 56px;
     line-height: 64px;
-    color: #FFFFFF;
+    color: #333333;
 }
 .title-pracing p{
     margin: 0 auto;
@@ -31,7 +30,7 @@ body{
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    color: #FFFFFF;
+    color: #333333;
 }
 
 /*container-pracing*/
@@ -45,55 +44,67 @@ body{
 }
 
 /*box-pracing*/
-.button-pracing {
-    margin-bottom: 52px;
-}
 .box-pracing{
-    width: 270px;
-    height: 544px;
-    border: 1px solid rgba(255, 255, 255, 0.05);
-    background-color: rgba(255, 255, 255, 0.05);
+    width: 370px;
+    height: 528px;
+}
+
+/*price*/
+.price{
+    width: 370px;
+    height: 240px;
+    border: 1px solid #DDDDDD;
+    background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
+    position: relative;
+    z-index: 2;
 }
-.box-pracing span{
-    margin-top: 40px;
+.price h2{
+    padding-top: 40px;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 32px;
-    color: #FFFFFF;
+    color: #333333;
 }
-.box-pracing h1{
+
+/*block*/
+.block{
+    padding-top: 1px;
+}
+.block span{
+    padding-top: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333333;
+}
+.block h1{
     font-style: normal;
     font-weight: 700;
     font-size: 56px;
     line-height: 64px;
     color: #FD5545;
 }
-.box-pracing h2{
+.block p{
+    padding-top: 33px;
+    padding-left: 5px;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    color: #FFFFFF;
-}
-.box-pracing .color{
-    color: #FD5545;
-    margin-right: 5px;
-}
-.price{
-    display: flex;
-}
-.price span{
-    position: relative;
-    top: -30px;
-    left: 0;
+    color: #333333;
+    mix-blend-mode: normal;
+    opacity: 0.5;
 }
 
 /*button-pracing*/
+.button-pracing {
+    margin-top: 23px;
+}
 .button-pracing a{
     padding: 12px 41px 10px 31px;
     border-radius: 3px;
@@ -107,23 +118,45 @@ body{
     margin-right: 14px;
 }
 
+/*commodity*/
+.commodity{
+    width: 338px;
+    height: 288px;
+    margin: 0 auto;
+    border: 1px solid #DDDDDD;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: -1px;
+    z-index: 1;
+}
+.commodity .color{
+    color: #FD5545;
+}
+
 /*animation-buy*/
 .box-pracing .animation-buy{
-    background-color: #FD5545;
-    border: 1px solid #FD5545;
-    color: #FFFFFF;
+    background-color: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    color: #FD5545;
 }
-.box-pracing:hover{
-    background-color: #FD5545;
-}
-.box-pracing:hover span,
-.box-pracing:hover h2,
-.box-pracing:hover h1,
-.box-pracing:hover .color
+.price:hover span,
+.price:hover h2,
+.price:hover h1,
+.price:hover p
 {
     color: #FFFFFF;
+    transition: all 0.5s ease;
 }
-.box-pracing:hover .animation-buy{
+.price:hover .animation-buy{
     background-color: #FFFFFF;
     color: #FD5545;
+    transition: all 0.5s ease;
+}
+.price:hover{
+    background-color: #FD5545;
+    border: 1px solid #FD5545;
+    transition: all 0.5s ease;
 }

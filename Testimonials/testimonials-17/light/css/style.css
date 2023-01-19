@@ -1,0 +1,89 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.testi-17{
+    width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.h1_testi17{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 64px;
+    color: #333333;
+    margin-top: 57px;
+}
+
+.p_testi17{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    margin-top: 23px;
+    width: 570px;
+    margin-left: 435px  ;
+}
+
+.flex_testi17{
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+    margin-left: 135px;
+    margin-top: 46px;
+}
+
+.cards_testi17{
+    border: solid 1px #dddddd;
+    width: 370px;
+    height: 384px;
+    background-color: #fff;
+}
+
+.cards_testi17 h2{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 64px;
+    margin-left: 314px;
+    margin-top: 14px;
+    color: #333333;
+}
+
+.img_testi17    {
+    margin-top: -45px;
+}
+
+.cards_testi17 p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    width: 306px;
+    color: #333333;
+    margin-top: 28px;
+    margin-left: 32px;
+}
+
+.cards_testi17 h3{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    margin-top: 13px;
+}
+
+.cards_testi17 span{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.stars_testi17{
+    margin-top: 9px;
+}
+
