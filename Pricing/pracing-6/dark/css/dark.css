@@ -1,0 +1,219 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+/*pracing*/
+.pracing{
+    width: 100%;
+    height: 592px;
+    margin: 0 auto;
+    background-color: #333333;
+}
+
+/*container-pracing*/
+.container-pracing{
+    width: 1440px;
+    height: 592px;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+}
+/*title-pracing*/
+.title-pracing{
+    width: 370px;
+    margin-left: 135px;
+    margin-top: 169px;
+}
+.title-pracing h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 64px;
+    color: #FFFFFF;
+}
+.title-pracing p{
+    margin-top: 23px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.title-pracing a{
+    padding: 14px 41px 10px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/*button-free*/
+.button-free{
+    margin-top: 49px;
+}
+
+/*boxes-pracing*/
+.boxes-pracing{
+    width: 770px;
+    margin-top: 80px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*box-pracing*/
+.box-pracing{
+    width: 370px;
+    height: 432px;
+    border: 2px solid #555555;
+    background-color: #3D3D3D;
+    border-radius: 3px;
+}
+
+/*text-title-pricing*/
+.text-title-pricing{
+    height: 112px;
+    border-bottom: 2px solid #555555;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.text-title-pricing h1{
+    margin-right: 24px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+
+/*icon-pracing*/
+.icon-pracing{
+    display: flex;
+    align-items: center;
+}
+.icon-pracing img{
+    margin-left: 21px;
+}
+.icon-pracing span{
+    margin-left: 7px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+/*discription-pracing*/
+.discription-pracing{
+    height: 208px;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*text-pracing*/
+.text-pracing{
+    width: 314px;
+    display: flex;
+    justify-content: space-between;
+}
+.text-pracing h2{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.opacity{
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+/*icon-check*/
+.icon-check{
+    font-size: 24px;
+    color: #FD5545;
+}
+
+/*icon-close*/
+.icon-close{
+    font-size: 24px;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+/*button-pracing*/
+.button-pracing{
+    height: 107px;
+    border-top: 2px solid #555555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-pracing a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+/*animation*/
+
+/*star-free*/
+.star-free{
+    background-color: #FD5545;
+    border: 1px solid #FD5545;
+    border-radius: 3px;
+    color: #FFFFFF;
+    transition: all 1s ease;
+}
+.star-free:hover{
+    background-color: #FFFFFF;
+    border: 1px solid #555555;
+    color: #FD5545;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    transition: all 1s ease;
+}
+
+/*buy-now*/
+.buy-now{
+    padding: 14px 121px 10px;
+    background-color: #FD5545;
+    border: 1px solid #FD5545;
+    border-radius: 3px;
+    color: #FFFFFF;
+    transition: all 1s ease;
+}
+.buy-now:hover{
+    background-color: #FFFFFF;
+    border: 1px solid #555555;
+    border-radius: 3px;
+    color: #FD5545;
+    opacity: 0.5;
+    transition: all 1s ease;
+}
+
+/*contact-us*/
+.contact-us{
+    padding: 14px 115px 10px;
+    background-color: #3D3D3D;
+    border: 1px solid #555555;
+    border-radius: 3px;
+    color: #FFFFFF;
+    transition: all 1s ease;
+}
+.contact-us:hover{
+    background-color: #FFFFFF;
+    border: 1px solid #555555;
+    border-radius: 3px;
+    color: #FD5545;
+    opacity: 0.5;
+    transition: all 1s ease;
+}
