@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/light.css">
+    <title>Cover-22</title>
+</head>
+<body>
+    <section class="cover">
+        <!--header-menu-->
+        <header class="header-menu">
+            <nav class="top-menu">
+
+                <div class="logo">
+                    <a href="#">LOGO</a>
+                </div>
+                
+                <ul class="nav-menu">
+                    <li><a class="animation-bottom" href="#">About</a></li>
+                    <li><a class="animation-bottom" href="#">Portfolio</a></li>
+                    <li><a class="animation-bottom" href="#">Blog</a></li>
+                    <li><a class="animation-bottom" href="#">Shop</a></li>
+                    <div class="search">
+                        <a href="#"><img src="../images/cart.svg" alt=""></a>
+                        <a href="#"><img src="../images/search.svg" alt=""></a>
+                    </div>
+                    <div class="contact-us">
+                        <a class="animation-us" href="#">Contact Us</a>
+                    </div>
+                </ul>
+            </nav>
+        </header>
+        <!--/header-menu-->
+
+        <!--container-->
+        <div class="container-top">
+            <!--left part-->
+            <div class="left-part-top">
+                <span>Ac felis donec</span>
+                <h1>Save your page designs as templates</h1>
+                <div class="button-top">
+                    <a class="bgc white animation-white" href="#">Read More</a>
+                </div>
+            </div>
+            <!--/left part-->
+
+            <!--right-part-->
+            <div class="right-part-top">
+                <h1>Vel pharetra vel turpis nunc</h1>
+                
+                <div class="button-contribute">
+                    <a href="#">Contribute Now</a>
+                </div>
+            </div>      
+            <!--/right-part-->  
+        </div>  
+
+        <!--tume-->
+        <div class="time-text">
+       
+            <div class="text-1">
+                <span>Day</span>
+            <span>Hour</span>
+            </div>
+                            
+            <div class="text-2">
+                <span>Minute</span>
+                <span>Second</span>
+            </div>  
+        </div>
+
+        <div class="javascript-progress-bar-area">
+            <div style="height: 100%; width: 100%;">
+                <h5 data-value="73">$73.000 raised </h5>
+                <div class="meter" style="width: 506px;">
+                    <span style="width: 73%; border-radius: 10px"></span>
+                </div> 
+            </div>  
+        </div>
+
+        <div class="timer-cover">
+            <p id="demo"></p>
+
+                <script class="script_styles28">
+                // Set the date we're counting down to
+                var countDownDate = new Date("Jan 5, 2024 15:37:25").getTime();
+
+                // Update the count down every 1 second
+                var x = setInterval(function() {
+
+                // Get today's date and time
+                var now = new Date().getTime();
+
+                // Find the distance between now and the count down date
+                var distance = countDownDate - now;
+
+                // Time calculations for days, hours, minutes and seconds
+                var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                // Display the result in the element with id="demo"
+                document.getElementById("demo").innerHTML = "<div class='div_for_spans'> <span class='timer_digit'>" + days + "</span> <span class='timer_digit'>" + hours + "</span> <span class='dots'>:</span> <span class='timer_digit'>" + minutes + "</span><span class='dots'>:</span><span class='timer_digit'>" + seconds + "</span> <div> ";
+
+                // If the count down is finished, write some text
+                if (distance < 0) {
+                    clearInterval(x);
+                    document.getElementById("demo").innerHTML = "EXPIRED";
+                }
+                }, 1000);
+                </script>
+        </div>
+
+        <!--progres-bar-->
+        <script>
+            $(".meter > span").each(function() {
+               $(this)
+                   .data("origWidth", $(this).width())
+                   .width(0)
+                   .animate({
+                       width: $(this).data("origWidth")
+                   }, 1200);
+           });
+       </script>
+        <!--/container-->   
+    </section>
+</body>
+</html>   
