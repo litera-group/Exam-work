@@ -1,0 +1,198 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+/*pracing*/
+.pracing{
+    width: 100%;
+    height: 912px;
+    margin: 0 auto;
+}
+
+/*container-pracing*/
+.container-pracing{
+    width: 1440px;
+    height: 912px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/*title-pracing*/
+.title-pracing{
+    width: 237px;
+    margin: 0 auto;
+    padding-top: 57px;
+    text-align: center;
+}
+.title-pracing h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 64px;
+    color: #333333;
+}
+.title-pracing p{
+    margin-top: 7px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+.title-pracing a{
+    padding: 14px 41px 10px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/*boxes-pracing*/
+.boxes-pracing{
+    width: 1170px;
+    gap: 30px;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+/*box-pracing*/
+.box-pracing{
+    width: 1170px;
+    height: 192px;
+    border: 1px solid #DDDDDD;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*text-title-pricing*/
+.text-title-pricing span{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333333;
+}
+.text-title-pricing h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #333333;
+}
+.text-title-pricing p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: #333333;
+}
+
+
+/*discription-pracing*/
+
+
+.discription-pracing{
+    width: 455px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*left-discription and right-discription*/
+.left-discription,
+.right-discription{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/*text-pracing*/
+.text-pracing{
+    display: flex;
+    gap: 6px;
+}
+.text-pracing h2{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+}
+
+/*icon-check*/
+.icon-check{
+    color: #FD5545;
+}
+
+/*opacity*/
+.opacity{
+    color: #333333;
+    opacity: 0.5;
+}
+
+
+/*/discription-pracing*/
+
+
+/*button-pracing*/
+.button-pracing a{
+    padding: 14px 53px 10px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/*popular*/
+.popular{
+    position: absolute;
+    top: 445px;
+    left: 300px;
+}
+.popular span{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+
+/*animation*/
+
+/*buy-now*/
+.buy-now{
+    background-color: #FD5545;
+    border: 1px solid #FD5545;
+    border-radius: 3px;
+    color: #FFFFFF;
+}
+.box-pracing:hover .buy-now {
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 3px;
+    color: #FD5545;
+    transition: all 1s ease;
+}
+
+/*all*/
+.box-pracing:hover{
+    background-color: #FD5545;
+    border: 1px solid #FD5545;
+    transition: all 1s ease;
+}
+.box-pracing:hover h1,
+.box-pracing:hover h2,
+.box-pracing:hover p,
+.box-pracing:hover i,
+.box-pracing:hover span{
+    color: #FFFFFF;
+    transition: all 1s ease;
+}

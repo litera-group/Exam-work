@@ -12,7 +12,7 @@ body{
 .title-pracing{
     width: 279px;
     margin: 0 auto;
-    margin-top: 64px;
+    padding-top: 64px;
     text-align: center;
 }
 .title-pracing span{
@@ -172,7 +172,7 @@ opacity: 0.5;
 
 
 .tab {
-    width: 380px;
+    width: 374px;
     margin: 0 auto;
     margin-top: 39px;
     overflow: hidden;
