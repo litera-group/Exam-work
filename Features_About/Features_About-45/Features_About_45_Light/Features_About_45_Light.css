@@ -1,0 +1,30 @@
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.container{
+  width: 1440px;
+  height: 560px;
+  margin: 0 auto;
+}
+h3{
+  width: 570px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+}
+p{
+  width: 570px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.upper-part{
+  margin-top: 121px;
+  margin-left: 135px;
+}
+.bottom-part{
+  display: flex;
+  justify-content: space-between;
+  margin: 59px 135px;
+  gap: 30px;
+}

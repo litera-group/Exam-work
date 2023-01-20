@@ -1,0 +1,56 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #333333;
+}
+
+.testi-8{
+    width: 1440px;
+    margin: 0 auto;
+}
+.h1_testi8{
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FD5545;
+    margin-left: 135px;
+    margin-top: 119px;
+}   
+
+.h2_testi8{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #fff;
+    margin-left: 135px;
+    margin-top: 10px;
+    width: 770px;
+    position: relative;
+    z-index: 2;
+}
+
+.p_testi8{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    margin-left: 135px;
+    margin-top: 22px;
+}
+
+.span_testi8{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    margin-left: 135px;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    display: block;
+}
+
+.img_testi8{
+    margin-left: 735px;
+    margin-top: -320px;
+    position: relative;
+    z-index: 1;
+}

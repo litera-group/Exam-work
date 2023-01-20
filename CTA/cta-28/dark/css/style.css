@@ -1,0 +1,130 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #333333;
+}
+
+.cta-28{
+    width: 770px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.h1_cta28{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 64px;
+    color: #fff;
+    margin-top: 73px;
+}
+
+.p_cta28{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    margin-top: 23px;
+}
+
+.timer28{
+    width: 570px;
+    height: 128px;
+    background: #3D3D3D;
+    border: 1px solid #3D3D3D;
+    border-radius: 3px;
+    margin-left: 100px;
+    margin-top: 23px;
+    display: flex;
+}
+
+.script_styles28{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    
+}
+
+.form_name28 input{
+    display: block;
+    margin-top: 80px;
+    width: 270px;
+    height: 48px;
+    padding-left: 15px;
+    margin-left: 0px;
+
+}
+
+.disp_for_p28{
+    width: 570px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 105px;
+    margin-top: -50px;
+}
+
+.form_email28 input{
+    display: block;
+    margin-top: -54px;
+    width: 270px;
+    height: 48px;
+    padding-left: 15px;
+    margin-left: 320px;
+}
+
+.send-message28{
+    width: 170px;
+    height: 54px;
+    background-color: #FD5545;
+    border: solid 1px #FD5545;
+    border-radius: 3px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top:-54px;
+    margin-left: 639px;
+    display: block;
+   
+}
+
+.send-message28 a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.timer_digit{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #fff;
+    width: 100px;
+    margin-top: 25px;
+    
+}
+
+.dots{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+
+.div_for_spans{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 570px;
+    margin-left: 15px;
+}
+
+
+
+
+.disp_for_p28 p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: #fff;
+}

@@ -1,0 +1,84 @@
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.container{
+  width: 1440px;
+  height: 736px;
+  margin: 0 auto;
+  color: white;
+}
+.content{
+position: relative;
+}
+.red-background{
+  width: 505px;
+  height: 736px;
+  background-color: #FD5545;
+  float: left;
+}
+.black-background{
+  width: 935px;
+  height: 736px;
+background-color: #333333;
+float: left;
+}
+.middle-part-with-image{
+  position: absolute;
+  top: 96px;
+  left: 135px;
+  display: flex;
+  justify-content: space-between;
+}
+.text-section{
+  margin-left: 107px;
+  margin-top: 95px;
+}
+.image-on-the-background{
+  width: 544px;
+  height: 570px;
+}
+h2{
+  width: 433px;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 64px;
+}
+p{
+  width: 470px;
+  margin-top: 15px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+/* button */
+.button-about{
+  margin-top: 50px;
+  display: flex;
+  justify-content: flex-start;
+}
+.button-about a{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+}
+/*animation*/
+.animation-b{
+  position: relative;
+  border: 1px solid gray;
+  padding: 12px 65px 10px;
+  background-color: #FD5545;
+  color:#FFFFFF;
+  transition: all 1s ease;
+  border-radius: 3px;
+}
+.animation-b:hover{
+  transition: all 1s ease;
+  border: 1px solid gray;
+  background-color: #FFFFFF; 
+  color: #FD5545;
+}
+/*end of animation*/
+
+/* //button */

@@ -1,0 +1,35 @@
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.container{
+  width: 1440px;
+  height: 912px;
+  margin: 0 auto;
+  background-color: #333333;
+  color: white;
+}
+.content {
+  gap: 25px;
+  padding: 73px 135px;
+  display: flex;
+  justify-content: space-around;
+}
+.left-part-of-page img{
+margin-top: 30px;
+}
+.right-part-of-page h2{
+  margin-top: 30px;
+}
+h2{
+  width: 490px;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 64px;
+}
+p{
+  margin-top: 20px;
+  width: 570px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}

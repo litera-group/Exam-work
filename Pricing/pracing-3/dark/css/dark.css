@@ -1,0 +1,183 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+/*pracing*/
+.pracing{
+    width: 100%;
+    height: 704px;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    background-color: #333333;
+}
+.position-slide{
+    margin: 0 auto;
+    display: flex;
+}
+
+/*title-pracing*/
+.title-pracing{
+    width: 270px;
+    margin-top: 225px;
+    margin-left: 135px;
+}
+.title-pracing h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 64px;
+    color: #FFFFFF;
+}
+.title-pracing p{
+    width: 270px;
+    margin-top: 23px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+/*container-pracing*/
+.container-pracing{
+    width: 100%;
+    height: 100%;
+    margin-top: 96px;
+    margin-left: 30px;
+    gap: 30px;
+    display: flex;
+}
+
+/*box-pracing*/
+.button-pracing {
+    margin-bottom: 52px;
+}
+.box-pracing{
+    width: 270px;
+    height: 544px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    background-color: rgba(255, 255, 255, 0.05);;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.box-pracing h2{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.box-pracing .color{
+    color: #FD5545;
+    margin-right: 5px;
+}
+
+/*price*/
+.price{
+    width: 270px;
+    height: 96px;
+    background-color: #FD5545;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.price h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 64px;
+    color: #FFFFFF;
+}
+.price span{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    position: relative;
+    top: -5px;
+    left: 0;
+}
+.price p{
+    margin-top: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+/*title-pracing-box*/
+.title-pracing-box{
+    text-align: center;
+    margin-top: 24px;
+}
+.title-pracing-box span{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+.title-pracing-box p{
+    margin-top: 4px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+/*button-pracing*/
+.button-pracing a{
+    padding: 12px 41px 10px 31px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+.button-pracing .icon-cart{
+    margin-right: 14px;
+}
+
+/*animation-buy*/
+.box-pracing .animation-buy{
+    background-color: #FD5545;
+    border: 1px solid #FD5545;
+    color: #FFFFFF;
+}
+.box-pracing:hover{
+    background-color: #FD5545;
+    transition: all 0.5s ease;
+}
+.box-pracing:hover .title-pracing-box span,
+.box-pracing:hover .title-pracing-box p,
+.box-pracing:hover h2,
+.box-pracing:hover h1,
+.box-pracing:hover .color
+{
+    color: #FFFFFF;
+    transition: all 0.5s ease;;
+}
+.box-pracing:hover .animation-buy{
+    background-color: #FFFFFF;
+    color: #FD5545;
+    transition: all 0.5s ease;
+}
+.box-pracing:hover .price{
+    background-color: #FFFFFF;
+    transition: all 0.5s ease;
+}
+.box-pracing:hover .price span,
+.box-pracing:hover .price h1,
+.box-pracing:hover .price p
+{
+    color: #333333;
+    transition: all 0.5s ease;
+}

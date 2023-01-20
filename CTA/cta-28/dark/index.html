@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>cta-28</title>
+</head>
+<body>
+    <section class="cta-28">
+        <h1 class="h1_cta28">Limited Time Offer</h1>
+        <p class="p_cta28">Sed porta sed lacus sit amet consectetur dolor sit amet, consectetur adipiscin.</p>
+        <div class="timer28">
+            <p id="demo"></p>
+
+                <script class="script_styles28">
+                // Set the date we're counting down to
+                var countDownDate = new Date("Jan 5, 2024 15:37:25").getTime();
+
+                // Update the count down every 1 second
+                var x = setInterval(function() {
+
+                // Get today's date and time
+                var now = new Date().getTime();
+
+                // Find the distance between now and the count down date
+                var distance = countDownDate - now;
+
+                // Time calculations for days, hours, minutes and seconds
+                var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                // Display the result in the element with id="demo"
+                document.getElementById("demo").innerHTML = "<div class='div_for_spans'> <span class='timer_digit'>" + days + "</span> <span class='timer_digit'>" + hours + "</span> <span class='dots'>:</span> <span class='timer_digit'>" + minutes + "</span><span class='dots'>:</span><span class='timer_digit'>" + seconds + "</span> <div> ";
+
+                // If the count down is finished, write some text
+                if (distance < 0) {
+                    clearInterval(x);
+                    document.getElementById("demo").innerHTML = "EXPIRED";
+                }
+                }, 1000);
+                </script>
+        </div>
+        <div class="disp_for_p28">
+            <p>Day</p>
+            <p>Hour</p>
+            <p>Minute</p>
+            <p>Second</p>
+        </div>
+        <form class="form_name28">
+            <input type="text" placeholder="Name">
+        </form>
+
+        <form class="form_email28">
+            <input type="text" placeholder="Email">
+        </form>
+
+        <button class="send-message28">
+            <a href="#">
+                Get Offer
+            </a>
+        </button>
+    </section>
+</body>
+</html>

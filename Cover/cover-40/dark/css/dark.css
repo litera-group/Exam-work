@@ -1,0 +1,150 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*section*/
+
+.cover{
+    width: 1440px;
+    height: 800px;
+    margin: 0 auto;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+/*header*/
+
+.header-menu-left {
+    width: 56px;
+    height: 800px;
+    display: flex;
+}
+/*top-menu*/
+.left-menu {
+    margin: 0 auto;
+    margin-top: 16px;
+}
+
+/*/header*/
+
+
+/*container*/
+.container-top {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FD5545;
+}
+
+/*left-part*/
+
+.left-part-top {
+    width: 570px;
+    margin-top: 240px;
+    margin-left: 79px;
+}
+.left-part-top a{
+    text-decoration: none;
+}
+.text-top span{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.text-top h1{
+    margin-bottom: 1px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FFFFFF;
+}
+.text-top p{
+    margin-top: 31px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+/*sagit*/
+.sagit{
+    width: 569px;
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    width: 264px;
+    display: flex;
+}
+.icon{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 3px;
+}
+.discription{
+    width: 172px;
+    margin-left: 22px;
+}
+.discription span{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.discription p{
+    margin-top: 4px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+/*right-part*/
+
+.right-part-top img{
+    position: absolute;
+    top: 165px;
+    left: 783px;
+    z-index: 1;
+}
+.img-text{
+    width: 170px;
+    position: absolute;
+    top: 512px;
+    left: 1135px;
+    z-index: 2;
+}
+.img-text span{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.img-text p{
+    margin-top: 8px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+/*/section*/

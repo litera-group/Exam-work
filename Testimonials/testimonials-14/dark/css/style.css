@@ -1,0 +1,75 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #333333;
+}
+
+.testi-14{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.h1_testi14{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 64px;
+    color: #fff;
+    margin-left: 135px;
+    margin-top: 89px;
+}
+
+.p_testi14{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    color: #fff;
+    width: 270px;
+    margin-left: 135px;
+    margin-top: 23px;
+}
+
+.img_testi14{
+    margin-top: -160px;
+    margin-left: 435px;
+}
+
+.h2_testi14{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #fff;
+    margin-left: 635px;
+    margin-top: -160px;
+}
+
+.span_testi14{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    margin-left: 635px;
+    margin-top: 17px;
+    width: 670px;
+    display: block;
+}
+
+.h3_testi14{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    margin-left: 635px;
+    margin-top: 8px;
+}
+
+.h4_testi14{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    margin-left: 726px;
+    margin-top: -24px;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}

@@ -1,0 +1,72 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #333333;
+}
+
+.cta-16{
+    width: 770px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.h1_cta16{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 64px;
+    margin-top: 73px;
+    color: #ffff;
+}
+
+.forms_button_flex{
+    width: 570px;
+    display: flex;
+    margin-top: 24px;
+    margin-left: -35px;
+    justify-content: space-around;
+    gap: 0px;
+}
+
+.form_namemail_cta16 input{
+    width: 270px;
+    height: 48px;
+    padding-left: 15px;
+    margin-top: 23px;
+    margin-left: 48px;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+    display: block;
+}
+
+.send-message_cta16{
+    width: 170px;
+    height: 48px;
+    background-color: #FD5545;
+    border: none;
+    border-radius: 5%;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: -50px;
+    margin-left: 630px;
+    display: block;
+}
+
+.send-message_cta16 a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.p_cta16{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffff;
+    margin-top: -23px;
+}
+
+.agree16{
+    margin-left: -360px;
+    width: 16px;
+    height: 16px;
+    margin-top: 30px;
+}
