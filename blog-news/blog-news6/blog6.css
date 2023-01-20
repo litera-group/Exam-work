@@ -1,0 +1,92 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.blog6{
+    width: 1440px;
+    height: 608px;
+    margin: 0 auto;
+    
+}
+
+.blog6 .subtitle{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    
+    padding-top: 80px;
+}
+
+.blog6 .title{
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 64px;
+    
+    padding-top: 1px;
+}
+
+.blog6 .main{
+    display: flex;
+    justify-content: space-between;
+    margin: 55px 135px 0 135px;
+    
+}
+
+.blog6 .main .block{
+    width: 370px;
+    height: 272px;
+    display: flex;
+    flex-direction: column;
+    border: solid 1px #DDDDDD;
+    text-decoration: none;
+    color: #000;
+}
+
+
+.blog6 .main .block .date{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #B3B3B3;
+    margin-left: 32px;
+    margin-top: 32px;
+}
+
+.blog6 .main .block .block-title{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+
+    padding-top: 16px;
+    width: 289px;
+    margin-left: 32px;
+}
+
+.blog6 .main .block .name{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+
+    margin-top: 80px;
+    margin-left: 32px;
+}
+
+/* blog6-dark */
+
+.blog6-dark{
+    background-color: #333333;
+    color: #fff;
+}
+
+
+.blog6 .main .block .dark{
+    color: #fff;
+}
+
+.blog6 .main .block-dark{
+    background-color:  #B3B3B3;
+}
+
+

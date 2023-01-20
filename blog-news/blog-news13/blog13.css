@@ -1,0 +1,88 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.blog13{
+    width: 1440px;
+    height: 816px;
+    margin: 0 auto;
+    
+}
+
+.blog13 .top-side{
+    display: flex;
+    justify-content: space-between;
+    color: #000;
+    margin-left: 135px;
+    margin-right: 135px;
+}
+
+.blog13 .top-side .title{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 64px;
+    margin-top: 57px;
+}
+
+.blog13 .top-side .text{
+    width: 370px;
+    height: 82px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 80px;
+}
+
+.blog13 .main{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 135px 0 135px ;
+}
+
+.blog13 .main .block{
+    width: 370px;
+    height: 544px;
+    text-decoration: none;
+    color: #000;
+}
+
+.blog13 .main .block img{
+    width: 370px;
+    height: 368px;
+    overflow: hidden;
+}
+
+.blog13 .main .block .date{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-top: 32px;
+    margin-left: 32px;
+}
+
+.blog13 .main .block .block-title{
+    width: 301px;
+    height: 64px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    padding-top: 16px;
+    margin-left: 32px;
+}
+
+/* blog13-dark */
+
+.blog13-dark{
+    background-color: #333;
+}
+
+.blog13 .top-side-dark{
+    color: #fff;
+}
+
+
+
+.blog13 .main .block-dark{
+    color: #fff;
+}

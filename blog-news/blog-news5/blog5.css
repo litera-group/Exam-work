@@ -1,0 +1,127 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.blog5{
+    width: 1440px;
+    height: 784px;
+    margin: 0 auto;
+    
+}
+
+
+.blog5 .title{
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 64px;
+    padding-top: 73px;
+}
+
+.blog5 .subtitle{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-top: 23px;
+    width: 570px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.blog5 .main{
+    display: flex;
+    justify-content: space-between;
+    margin: 32px 135px 0 135px;
+    
+}
+
+.blog5 .main .block{
+    width: 370px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    border: solid 1px #DDDDDD;
+    text-decoration: none;
+    color: #000;
+}
+
+
+.blog5 .main .block .block-title{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+
+    padding-top: 40px;
+    width: 303px;
+    margin-left: 32px;
+}
+
+.blog5 .main .block .text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+
+    padding-top: 24px;
+    width: 306px;
+    margin-left: 32px;
+}
+
+.blog5 .main .block .author{
+    display: flex;
+    justify-content: baseline;
+    gap: 13px;
+    margin-top: 32px;
+    margin-left: 32px;
+}
+
+.blog5 .author img{
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+}
+
+.blog5 .main .block .name{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+
+}
+
+
+.blog5 .btn {
+    width: 170px;
+    height: 48px;
+    background-color: #FD5545;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0 auto;
+    display: block;
+    
+}
+
+.blog5 .btn-link{
+    display: block;
+    margin-top: 40px;
+    text-decoration: none;
+}
+
+
+/* blog5-dark */
+
+.blog5-dark{
+    background-color: #333333;
+}
+
+.dark{
+    color: #fff;
+}
+
+
+.blog5 .main .block-dark{
+    color: #fff;
+    background-color: #333;
+}
+

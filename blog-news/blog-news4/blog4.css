@@ -1,0 +1,72 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.blog4{
+    width: 1440px;
+    height: 736px;
+    margin: 0 auto;
+    
+}
+
+.blog4 .title{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 64px;
+    text-align: center;
+    
+    padding-top: 73px;
+}
+
+.blog4 .main{
+    display: flex;
+    justify-content: space-between;
+    margin: 55px 135px 0 135px;
+    gap: 30px;
+}
+
+.blog4 .main .block{
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+}
+
+.blog4 .main .block .img{
+    height: 432px;
+    overflow: hidden;
+}
+
+.blog4 .main .block span{
+    position: absolute;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    top: 304px;
+    left: 32px;
+}
+
+.blog4 .main .block h5{
+    width: 179px;
+    height: 64px;
+    position: absolute;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    top: 336px;
+    left: 32px;
+}
+
+.blog4 .main .block .first-img-title{
+    width: 233px;
+}
+
+/* blog4-dark */
+
+
+.blog4-dark{
+    background-color: #333;
+}
+
+.blog4 .black{
+    color: #fff;
+}

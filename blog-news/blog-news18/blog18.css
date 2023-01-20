@@ -1,0 +1,48 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.blog18{
+    width: 1440px;
+    height: 288px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.blog18 .main{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 135px;
+    margin-right: 135px;
+}
+
+.blog18 .main .block{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+}
+
+.blog18 .main .title{
+    font-weight: 700;
+    width: 270px;
+    height: 50px;
+    margin-top: 96px;
+    margin-bottom: 14px;
+}
+
+.blog18 .main .date{
+    font-weight: 400;
+}
+
+/* blog18-dark */
+
+
+.blog18-dark{
+    background-color: #333333;
+}
+
+
+.blog18 .main .block-dark{
+    color: #fff;
+}

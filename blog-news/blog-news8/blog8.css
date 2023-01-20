@@ -1,0 +1,109 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.blog8{
+    width: 1440px;
+    height: 720px;
+    margin: 0 auto;
+    
+}
+
+.blog8 .bottom-side{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 135px;
+    margin-right: 135px;
+    
+}
+
+.blog8 .bottom-side .logo{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 64px;
+    color: #000;
+    margin-top: 73px;
+    text-decoration: none;
+}
+
+
+.blog8 .bottom-side .btn {
+    width: 170px;
+    height: 48px;
+    background-color: #FD5545;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    margin-top: 80px;
+}
+
+.blog8 .main{
+    display: flex;
+    justify-content: space-between;
+    margin: 48px 135px 0 135px ;
+}
+
+.blog8 .main .block{
+    width: 370px;
+    height: 416px;
+    text-align: center;
+    background-color: #B3B3B3;
+    color: #000;
+    text-decoration: none;
+}
+
+.blog8 .main .block img{
+    width: 306px;
+    height: 208px;
+    overflow: hidden;
+    margin-top: 32px;
+}
+
+.blog8 .main .block .block-title{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-top: 25px;
+}
+
+.blog8 .main .block .subtitle-special{
+    padding-left: 10px;
+    color: #FD5545;
+}
+
+.blog8 .main .block .block-subtitle{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 4px;
+}
+
+.blog8 .main .block .text{
+    width: 306px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 4px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* blog8-dark */
+
+.blog8-dark{
+    background-color: #333;
+    
+}
+
+.blog8 .bottom-side .logo-dark{
+    color: #fff;
+}
+
+
+.blog8 .main .dark{
+    background-color: #B3B3B3;
+    color: #fff;
+}

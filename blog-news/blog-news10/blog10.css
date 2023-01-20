@@ -1,0 +1,57 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.blog10{
+    width: 1440px;
+    height: 512px;
+    margin: 0 auto;
+    
+}
+
+.blog10 .main{
+    display: flex;
+    justify-content: space-between;
+    padding: 96px 135px 0 135px;
+    
+}
+
+.blog10 .main .block{
+    color: #333;
+    text-decoration: none;
+}
+
+
+.blog10 .main .block .date{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.blog10 .main .block .title{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    width: 370px;
+    height: 150px;
+    margin-top: 17px;
+}
+
+.blog10 .main .block .text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 370px;
+    height: 114px;
+    margin-top: 17px;
+}
+
+/* blog10-dark */
+
+.blog10-dark{
+    background-color: #333;
+}
+
+.blog10 .main .dark{
+    color: #fff;
+}

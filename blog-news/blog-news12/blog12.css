@@ -1,0 +1,90 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.blog12{
+    width: 1440px;
+    height: 688px;
+    margin: 0 auto;
+
+    display: flex;
+    gap: 130px;
+}
+
+.blog12 .left-side{
+    margin-top: 80px;
+    margin-left: 135px;
+    color: #000;
+    text-decoration: none;
+}
+
+.blog12 .left-side .subtitle{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.blog12 .left-side .title{
+    width: 199px;
+    height: 128px;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 64px;
+}
+
+.blog12 .left-side .text{
+    width: 270px;
+    height: 82px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 23px;
+}
+
+.blog12 .rigth-side{
+    margin-top: 96px;
+    margin-right: 135px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.blog12 .rigth-side .block{
+    color: #000;
+    text-decoration: none;
+}
+
+.blog12 .rigth-side .date{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.blog12 .rigth-side .title{
+    width: 370px;
+    height: 96px;
+    margin-top: 16px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.blog12 .rigth-side .text{
+    width: 370px;
+    height: 48px;
+    margin-top: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/* blog12-dark */
+
+.blog12-dark{
+    background-color: #333;
+}
+
+.dark{
+    color: #fff;
+
+}
