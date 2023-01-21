@@ -35,18 +35,66 @@
                 <h1>iPhone App</h1>
                 <h4>View Project</h4>
             </div>
-            
-            <div class="right-part-top">
-                <a href="#"><div class="oval animation-oval"></div></a>
-                <a href="#"><div class="oval animation-oval"></div></a>
-                <a href="#"><div class="oval animation-oval"></div></a>
-                <a href="#"><div class="oval animation-oval"></div></a>
-            </div>
         </div>
         <!--/creative-->       
-        <div class="bgc-img">
-            <img src="../images/Background-dark.png" alt="">
+
+
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <img src="../images/Background-dark.png" alt="">
+            </div>
+            
+            <div class="mySlides fade">
+                <img src="../images/bgc-2.png" alt="">
+            </div>
+            
+            <div class="mySlides fade">
+                <img src="../images/bgc-3.png" alt="">
+            </div>
+               
+            <div class="mySlides fade">
+                <img src="../images/bgc-4.png" alt="">
+            </div>
+            
         </div>
+            <br>
+            
+            <div class="dots">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span> 
+              <span class="dot" onclick="currentSlide(4)"></span> 
+            </div>
+            
+            <script>
+                let slideIndex = 1;
+                showSlides(slideIndex);
+                
+                function plusSlides(n) {
+                  showSlides(slideIndex += n);
+                }
+                
+                function currentSlide(n) {
+                  showSlides(slideIndex = n);
+                }
+                
+                function showSlides(n) {
+                  let i;
+                  let slides = document.getElementsByClassName("mySlides");
+                  let dots = document.getElementsByClassName("dot");
+                  if (n > slides.length) {slideIndex = 1}    
+                  if (n < 1) {slideIndex = slides.length}
+                  for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";  
+                  }
+                  for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                  }
+                  slides[slideIndex-1].style.display = "block";  
+                  dots[slideIndex-1].className += " active";
+                }
+                </script>                
     </section>
 </body>
 </html>

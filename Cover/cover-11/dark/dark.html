@@ -10,8 +10,9 @@
     <title>Cover-11 light</title>
 </head>
 <body>
-    <section class="cover-11">
-        <!--header-menu-->
+    <section class="cover">
+        <div class="cover-container">
+                 <!--header-menu-->
         <header class="header-menu">
             <nav class="top-menu">
 
@@ -43,19 +44,60 @@
                 <div class="button-top">
                     <a class="animation-more" href="#">Read More</a>
                 </div>
-                <div class="links-top">
-                    <a class="animation-br" href="#">01</a>
-                    <a class="animation-br" href="#">02</a>
-                    <a class="animation-br" href="#">03</a>
-                </div>
             </div>
 
             <div class="right-part-top">
                 <div class="gray-border"></div>
-                <img src="../images/Oval.png" alt="">
+                <img src="../images/Oval.ng" alt="">
             </div>
         </div>
+
+        <div class="slideshow-container">
+                    
+            <div class="mySlides fade">
+                <img src="../images/Oval.png" alt="">
+            </div>
+        
+            <div class="mySlides fade">
+                <img src="../images/Oval 2.png" alt="">
+            </div>
+        
+            <div class="mySlides fade">
+                <img src="../images/Oval 3.png" alt="">
+            </div>
+        </div>
+        <br>
+        
+        <div class="dots">
+          <span class="dot" onclick="currentSlide(1)">01</span> 
+          <span class="dot" onclick="currentSlide(2)">02</span> 
+          <span class="dot" onclick="currentSlide(3)">03</span> 
+        </div>
         <!--/container-top-->
+
+        <!--slides-->
+        <script>
+            let slideIndex = 0;
+            showSlides();
+            
+            function showSlides() {
+              let i;
+              let slides = document.getElementsByClassName("mySlides");
+              let dots = document.getElementsByClassName("dot");
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+              }
+              slideIndex++;
+              if (slideIndex > slides.length) {slideIndex = 1}    
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+              setTimeout(showSlides, 7000); // Change image every 2 seconds
+            }
+        </script>
+        </div>
     </section>
 </body>
 </html>   
