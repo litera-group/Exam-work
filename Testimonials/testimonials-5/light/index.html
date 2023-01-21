@@ -7,13 +7,42 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./slick-1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="./slick-1.8.1/slick/slick-theme.css"/>
     <title>testimonials-5</title>
 </head>
 <body>
     <section class="testi-5">
-        <img class="bgi_testi5" src="./img/Background (4).png" alt="image">
-        <h1 class="h1_testi5">"Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure."</h1>
-        <p class="p_testi5">– Ren Delan, HR Manager.</p>
+        
+        <div class="slider">
+            <div class="slide_testi5">
+                <h1 class="h1_testi5">"Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure."</h1>
+                <p class="p_testi5">– Ren Delan, HR Manager.</p>
+                <img class="bgi_testi5" src="./img/Background (4).png" alt="image">
+            </div>
+
+            <div class="slide_testi5">
+                <h1 class="h1_testi5">"Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure."</h1>
+                <p class="p_testi5">– Ren Delan, HR Manager.</p>
+                <img class="bgi_testi5" src="./img/Background (4).png" alt="image">
+            </div>
+
+            <div class="slide_testi5">
+                <h1 class="h1_testi5">"Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure."</h1>
+                <p class="p_testi5">– Ren Delan, HR Manager.</p>
+                <img class="bgi_testi5" src="./img/Background (4).png" alt="image">
+            </div>
+    </div>
     </section>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.3.js"></script>
+    <script type="text/javascript" src="./slick-1.8.1/slick/slick.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+           $('.slider').slick({
+             dots:true
+           });
+         });
+         </script>
 </body>
 </html>

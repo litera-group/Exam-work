@@ -71,7 +71,7 @@
     line-height: 1;
 
     opacity: .75;
-    color: white;
+    color: #fff;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -122,7 +122,7 @@
 .slick-dots
 {
     position: absolute;
-    bottom: -25px;
+    bottom: -37px;
 
     display: block;
 
@@ -155,7 +155,7 @@
     display: block;
 
     width: 20px;
-    height: 20px;
+    height: 340px;
     padding: 5px;
 
     cursor: pointer;
